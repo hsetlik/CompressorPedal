@@ -5,6 +5,706 @@
 	(uuid "20c2dab5-c6c0-43eb-8440-16725dd945c9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Operational:LM13700"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 3.81 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM13700"
+				(at 5.08 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -7.62 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+				(at -7.62 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "operational transconductance amplifier OTA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm* DIP*W7.62mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM13700_1_1"
+				(polyline
+					(pts
+						(xy 3.81 -0.635) (xy 3.81 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIODE_BIAS"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM13700_2_0"
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LM13700_2_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0.635) (xy -2.54 1.27) (xy -2.54 1.905) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.635) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.905)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -1.27 0) (xy -1.27 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.175 -0.635) (xy -3.175 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.905 -1.905) (xy -1.905 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "V+"
+					(at -2.54 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM13700_3_1"
+				(polyline
+					(pts
+						(xy 3.81 -0.635) (xy 3.81 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIODE_BIAS"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM13700_4_0"
+				(polyline
+					(pts
+						(xy -3.175 2.54) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "V+"
+					(at -2.54 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LM13700_4_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0.635) (xy -2.54 1.27) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.635) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.905)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -1.27 0) (xy -1.27 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.175 -0.635) (xy -3.175 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.905 -1.905) (xy -1.905 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM13700_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
 				(offset 0.127)
@@ -798,6 +1498,510 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Simulation_SPICE:NPN"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at -2.54 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NPN"
+				(at -2.54 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 63.5 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+				(at 63.5 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NPN_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NPN_1_1"
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:PNP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at -2.54 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PNP"
+				(at -2.54 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 35.56 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+				(at 35.56 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PNP_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PNP_1_1"
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:Potentiometer"
 			(pin_names
 				(offset 1.016)
@@ -1442,6 +2646,216 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Simulation_SPICE:VSIN"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "V"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "VSIN"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Voltage source, sinusoidal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
+				(at 2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Sim.Type" "SIN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "simulation ac vac"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VSIN_0_0"
+				(arc
+					(start -1.27 0)
+					(mid -0.635 0.6323)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 0.635 -0.6323)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 0 1.905 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "VSIN_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "VSIN_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+18V"
 			(power global)
 			(pin_numbers
@@ -1698,7 +3112,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Max is 13.5, min is 7.3ish"
+	(text "V5 = threshold control\nMax is 13.5, min is 7.3ish"
 		(exclude_from_sim no)
 		(at 101.854 101.092 0)
 		(effects
@@ -1725,10 +3139,28 @@
 		(uuid "1ae41cf0-6313-447f-8deb-09e396c983fa")
 	)
 	(junction
+		(at 224.79 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "202c9cf4-4f3b-43bf-a332-8487e00837a5")
+	)
+	(junction
 		(at 118.11 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24f4e4bd-e5c1-499d-9d8c-5cf4202d17b0")
+	)
+	(junction
+		(at 161.29 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "284123f9-bdb7-4a69-9023-34acb4d9ff05")
+	)
+	(junction
+		(at 224.79 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45f7f4bc-a994-4095-8f3b-e5b8fab76cd6")
 	)
 	(junction
 		(at 82.55 85.09)
@@ -1743,16 +3175,28 @@
 		(uuid "584ed07c-34da-410e-9706-39e2a62261fb")
 	)
 	(junction
-		(at 161.29 71.12)
+		(at 234.95 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77dec04a-442c-4d31-b02d-96520c72e724")
+		(uuid "668c6dca-8cac-4f75-beaf-32266f8659b3")
 	)
 	(junction
 		(at 132.08 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81d55e96-72c7-49b8-9a8e-496334c58d61")
+	)
+	(junction
+		(at 101.6 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "919bba05-3c66-4463-b13b-d81f44e07332")
+	)
+	(junction
+		(at 132.08 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7e69bc5-bc5f-466a-a88a-dc9bbb2963cc")
 	)
 	(junction
 		(at 86.36 68.58)
@@ -1766,25 +3210,65 @@
 		(color 0 0 0 0)
 		(uuid "e0f27860-1768-4f71-ac1f-94160084876d")
 	)
+	(junction
+		(at 224.79 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9038ffb-a44a-4ee6-9dde-fc35e628325f")
+	)
 	(no_connect
-		(at 138.43 20.32)
-		(uuid "0602823c-52da-4167-82ad-20eb4b162a92")
+		(at 109.22 134.62)
+		(uuid "0ac595a9-ecca-4fb7-b7f8-7a40c887d5a5")
+	)
+	(no_connect
+		(at 257.81 127)
+		(uuid "141ad0af-9a01-4074-b275-df6ee7a68629")
+	)
+	(no_connect
+		(at 214.63 124.46)
+		(uuid "2a6ed69c-cc9d-4230-b966-2a1e748c7460")
+	)
+	(no_connect
+		(at 214.63 121.92)
+		(uuid "38036b77-2d86-48b2-a4f6-460413cdb52e")
 	)
 	(no_connect
 		(at 111.76 26.67)
 		(uuid "41686652-f395-4b43-bddd-499088c4e54c")
 	)
 	(no_connect
-		(at 153.67 22.86)
-		(uuid "467f03c3-4953-4573-8bc5-80d14137d6ef")
+		(at 229.87 124.46)
+		(uuid "484261bc-127c-414e-93c9-608b9cfa08e1")
 	)
 	(no_connect
-		(at 138.43 25.4)
-		(uuid "e5fde44a-0747-43fe-8704-893449009439")
+		(at 214.63 119.38)
+		(uuid "891ffeb2-a026-4c1d-817b-2620424e19ec")
+	)
+	(no_connect
+		(at 229.87 121.92)
+		(uuid "a58ab022-92e7-4fe9-add3-c5690db98d2e")
+	)
+	(no_connect
+		(at 127 24.13)
+		(uuid "b7c3de26-f03c-4517-a732-e56c368e1b7b")
+	)
+	(no_connect
+		(at 247.65 124.46)
+		(uuid "cc33d8b9-b5bc-47cd-9b69-a1c95e65127e")
 	)
 	(no_connect
 		(at 111.76 21.59)
 		(uuid "f5567984-a1be-4e23-b35b-c98dfdf1cd1a")
+	)
+	(wire
+		(pts
+			(xy 21.59 118.11) (xy 21.59 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d293ae-c9f2-424c-b183-138f28f51652")
 	)
 	(wire
 		(pts
@@ -1808,6 +3292,26 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 81.28) (xy 224.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e56d8a-4037-4ef4-a67e-d5f60a75e587")
+	)
+	(wire
+		(pts
+			(xy 80.01 137.16) (xy 77.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4c243f-6cdb-4e5b-9c95-3f1f1bfe0c7e")
+	)
+	(wire
+		(pts
 			(xy 62.23 95.25) (xy 62.23 99.06)
 		)
 		(stroke
@@ -1815,6 +3319,26 @@
 			(type default)
 		)
 		(uuid "1399ad04-836a-4265-a635-c5b99214712a")
+	)
+	(wire
+		(pts
+			(xy 224.79 78.74) (xy 224.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1582b665-f73f-4c9e-9578-f67d838d5a36")
+	)
+	(wire
+		(pts
+			(xy 92.71 146.05) (xy 92.71 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235218ea-94ed-4902-b644-977f181b5cec")
 	)
 	(wire
 		(pts
@@ -1838,6 +3362,26 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 137.16) (xy 109.22 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f4bc35-b848-465b-9055-480ff46a31fd")
+	)
+	(wire
+		(pts
+			(xy 132.08 144.78) (xy 132.08 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f66851-adcb-4f9d-9f7e-fadca73f7219")
+	)
+	(wire
+		(pts
 			(xy 158.75 71.12) (xy 161.29 71.12)
 		)
 		(stroke
@@ -1855,6 +3399,36 @@
 			(type default)
 		)
 		(uuid "2b5d8072-7cb4-48bc-8d66-f400364e0699")
+	)
+	(wire
+		(pts
+			(xy 254 40.64) (xy 254 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d066137-c484-47b3-a5a2-ecb1e04bdc88")
+	)
+	(wire
+		(pts
+			(xy 254 48.26) (xy 254 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2075aa-7f20-42df-8478-2d7db7bff399")
+	)
+	(wire
+		(pts
+			(xy 224.79 60.96) (xy 224.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0b8e8c-bc30-41ba-8c72-f14f8d3e839d")
 	)
 	(wire
 		(pts
@@ -1908,6 +3482,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 137.16) (xy 146.05 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cca841-c0f1-4779-9992-0f95f70558e4")
+	)
+	(wire
+		(pts
 			(xy 19.05 61.468) (xy 19.05 62.992)
 		)
 		(stroke
@@ -1915,6 +3499,16 @@
 			(type default)
 		)
 		(uuid "44a649b5-9a57-41f6-a848-c9a7ba54e9e2")
+	)
+	(wire
+		(pts
+			(xy 254 60.96) (xy 254 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4563f45a-adb2-4606-a314-b55ff368326e")
 	)
 	(wire
 		(pts
@@ -1958,6 +3552,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 138.43) (xy 101.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562a5505-482a-4822-ab89-bd7740b76a60")
+	)
+	(wire
+		(pts
 			(xy 86.36 68.58) (xy 86.36 85.09)
 		)
 		(stroke
@@ -1965,6 +3569,26 @@
 			(type default)
 		)
 		(uuid "613a05d7-3a58-442b-9874-0f5d9d1182ab")
+	)
+	(wire
+		(pts
+			(xy 77.47 137.16) (xy 77.47 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637f64d1-2dda-4395-8590-16add1987c54")
+	)
+	(wire
+		(pts
+			(xy 87.63 137.16) (xy 101.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b12310-7a87-4032-8e0c-decece5b8c54")
 	)
 	(wire
 		(pts
@@ -2028,6 +3652,26 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 63.5) (xy 234.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecc6430-d1c9-4fe4-8e06-5f52a838148a")
+	)
+	(wire
+		(pts
+			(xy 224.79 63.5) (xy 224.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1fad55-95cb-456e-8287-20dbe9796737")
+	)
+	(wire
+		(pts
 			(xy 118.11 82.55) (xy 118.11 68.58)
 		)
 		(stroke
@@ -2035,6 +3679,46 @@
 			(type default)
 		)
 		(uuid "805db1e7-bb5a-468e-b15d-69929b6858fb")
+	)
+	(wire
+		(pts
+			(xy 146.05 151.13) (xy 146.05 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849bb856-6651-45ff-b2fe-677ab568e008")
+	)
+	(wire
+		(pts
+			(xy 208.28 73.66) (xy 217.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a6fbf0-5fe8-44ec-bff5-96e74f70409a")
+	)
+	(wire
+		(pts
+			(xy 224.79 35.56) (xy 224.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899b2f3a-a5d1-4335-af7b-b2b2dab62684")
+	)
+	(wire
+		(pts
+			(xy 234.95 55.88) (xy 246.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc7cfc6-7932-439b-b7c6-fd97764bed0f")
 	)
 	(wire
 		(pts
@@ -2058,6 +3742,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 132.08) (xy 109.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9043512e-9c24-467f-af86-89f2a482edac")
+	)
+	(wire
+		(pts
 			(xy 62.23 87.63) (xy 62.23 85.09)
 		)
 		(stroke
@@ -2068,6 +3762,26 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 137.16) (xy 125.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928aefbc-6390-4f67-a555-d5d6b3245237")
+	)
+	(wire
+		(pts
+			(xy 232.41 55.88) (xy 234.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9876a15c-7212-43e3-bb16-c591732150fa")
+	)
+	(wire
+		(pts
 			(xy 149.86 71.12) (xy 148.59 71.12)
 		)
 		(stroke
@@ -2075,6 +3789,26 @@
 			(type default)
 		)
 		(uuid "9aa4d892-c8bc-47dc-b3c3-fa26a9f9b918")
+	)
+	(wire
+		(pts
+			(xy 132.08 134.62) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c10f41b-29ea-4455-9901-807bc9e40d0b")
+	)
+	(wire
+		(pts
+			(xy 224.79 81.28) (xy 224.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4fa466e-bc4a-41b4-8249-53ed0e6f45d2")
 	)
 	(wire
 		(pts
@@ -2108,6 +3842,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 46.99) (xy 224.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2136c0-aeb4-40d8-816a-667e004fc80a")
+	)
+	(wire
+		(pts
 			(xy 118.11 68.58) (xy 132.08 68.58)
 		)
 		(stroke
@@ -2115,6 +3859,26 @@
 			(type default)
 		)
 		(uuid "bb00ccad-5197-4a4d-a46d-0167bdadf6ee")
+	)
+	(wire
+		(pts
+			(xy 224.79 36.83) (xy 224.79 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd6fed4-7339-4f42-b0c0-b3a570f23ce8")
+	)
+	(wire
+		(pts
+			(xy 224.79 93.98) (xy 224.79 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3da004-f07f-4a07-9703-8100cf867541")
 	)
 	(wire
 		(pts
@@ -2128,6 +3892,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 134.62) (xy 132.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c105571d-7eb2-49d4-9110-07a7e92e8628")
+	)
+	(wire
+		(pts
 			(xy 82.55 81.28) (xy 82.55 85.09)
 		)
 		(stroke
@@ -2138,13 +3912,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 71.12) (xy 168.91 71.12)
+			(xy 161.29 71.12) (xy 193.04 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c46a13ab-fd44-4d1e-9a2f-e55da6ac8898")
+	)
+	(wire
+		(pts
+			(xy 132.08 134.62) (xy 135.89 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a6f1f3-8de8-4f1b-b1de-c016addfad7a")
 	)
 	(wire
 		(pts
@@ -2168,6 +3952,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 63.5) (xy 234.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18c9699-908a-4b14-98c1-18f02a87c6a6")
+	)
+	(wire
+		(pts
 			(xy 132.08 63.5) (xy 132.08 68.58)
 		)
 		(stroke
@@ -2178,6 +3972,36 @@
 	)
 	(wire
 		(pts
+			(xy 254 36.83) (xy 224.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98ab5ae-72dc-4e31-8feb-c81e826dfb9a")
+	)
+	(wire
+		(pts
+			(xy 77.47 151.13) (xy 77.47 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffcbaab-667a-4911-ab39-a7d31b32723a")
+	)
+	(wire
+		(pts
+			(xy 92.71 138.43) (xy 92.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e877879d-063a-4a77-a88b-2be05ba3f887")
+	)
+	(wire
+		(pts
 			(xy 77.47 81.28) (xy 82.55 81.28)
 		)
 		(stroke
@@ -2185,6 +4009,16 @@
 			(type default)
 		)
 		(uuid "e985d002-d4fd-415e-b17d-0686df824d33")
+	)
+	(wire
+		(pts
+			(xy 193.04 76.2) (xy 193.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbe6615-cd7a-46d6-a8be-ad81b7eefa91")
 	)
 	(wire
 		(pts
@@ -2226,6 +4060,56 @@
 		)
 		(uuid "f3f71672-9ad4-43e3-abd6-1bd03b0726e1")
 	)
+	(wire
+		(pts
+			(xy 101.6 146.05) (xy 101.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f491b562-1822-49d7-a530-e191d2a718f2")
+	)
+	(wire
+		(pts
+			(xy 21.59 134.62) (xy 21.59 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2bba1e-8098-4943-9e08-3fe96a39e733")
+	)
+	(label "VCAout"
+		(at 146.05 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "028c1544-a134-4bbf-95ae-35afbd6383f7")
+	)
+	(label "VG"
+		(at 132.08 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03cc34e4-21c1-4e3d-9ee3-1c1cdc8e4eac")
+	)
+	(label "Vin"
+		(at 77.47 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25a3743e-c04f-4b8d-b8a8-6481c721fa38")
+	)
 	(label "VG"
 		(at 62.23 99.06 0)
 		(effects
@@ -2237,7 +4121,7 @@
 		(uuid "359c7dde-c0ab-4ada-9236-dab3d16fc96a")
 	)
 	(label "HalfRect"
-		(at 168.91 71.12 0)
+		(at 163.83 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2266,6 +4150,26 @@
 		)
 		(uuid "72fa6cd1-5f69-4cc6-9ebc-f281ed05a553")
 	)
+	(label "Iabc"
+		(at 125.73 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84ad154c-1ab1-40bb-8f73-172b31a97187")
+	)
+	(label "VG"
+		(at 101.6 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3895b82-4d5d-4ba9-979e-f11345997440")
+	)
 	(label "RatioAmp"
 		(at 87.63 68.58 0)
 		(effects
@@ -2287,6 +4191,26 @@
 		(uuid "d3a63812-0057-453b-bbc7-d145591fc8a4")
 	)
 	(label "VG"
+		(at 224.79 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d570be1b-fd1e-43c4-b9fc-553cfa83c03d")
+	)
+	(label "Iabc"
+		(at 254 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d894a9f1-a87e-4d72-8d7a-609ba2fddc9b")
+	)
+	(label "VG"
 		(at 31.75 33.02 0)
 		(effects
 			(font
@@ -2295,6 +4219,16 @@
 			(justify left bottom)
 		)
 		(uuid "e9139160-bf55-4ea9-8d6d-1484b08f35c9")
+	)
+	(label "VG"
+		(at 92.71 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec619eca-744d-468e-8340-a554b73d59c5")
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
@@ -2487,6 +4421,88 @@
 			(project "CompressorSim"
 				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 254 44.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10e2f8fa-552b-4550-b5a4-affeff5f94fe")
+		(property "Reference" "R11"
+			(at 256.54 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470"
+			(at 256.54 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.984 44.196 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 254 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4002aba5-1568-4fb1-98fb-f182ea32dd4b")
+		)
+		(pin "1"
+			(uuid "3a05d256-c06b-47d4-8adc-fd1ca1b78adc")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2812,6 +4828,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3af61fae-ee1a-4952-8fc4-bf6c8add285b")
+		(property "Reference" "R12"
+			(at 134.62 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 134.62 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.096 141.224 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc20a240-8580-4e2f-817d-e43199fe6a2d")
+		)
+		(pin "2"
+			(uuid "68095db5-d2cd-4873-8df2-c85cc1c273ac")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 19.304 105.156 0)
 		(unit 1)
@@ -2885,6 +4983,312 @@
 			(project "CompressorSim"
 				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM13700")
+		(at 255.27 124.46 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45450189-027d-43f5-a108-a196f4636931")
+		(property "Reference" "U2"
+			(at 252.73 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM13700"
+			(at 252.73 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+			(at 247.65 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "lm13700_dual.cir"
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LM13700_dual"
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14 15=15 16=16"
+			(at 255.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "454041c4-859b-47cd-97b8-c84e4eb16e20")
+		)
+		(pin "10"
+			(uuid "a0f2d327-4319-408a-8c87-a50f3bd2531f")
+		)
+		(pin "3"
+			(uuid "cc9e1504-77ed-472b-96cd-e1b41b715dac")
+		)
+		(pin "1"
+			(uuid "bfee4a80-de0b-4a51-8687-047cd2922f9e")
+		)
+		(pin "2"
+			(uuid "f1fd76a7-2b80-419e-9bad-564f1791934a")
+		)
+		(pin "12"
+			(uuid "f679cc7e-0677-429f-bb45-6e1b12d00017")
+		)
+		(pin "13"
+			(uuid "d51f4f3e-ba71-4ec8-9e93-b2c00684300c")
+		)
+		(pin "15"
+			(uuid "93f467f6-9946-4fda-b962-56c9b5c132ab")
+		)
+		(pin "16"
+			(uuid "13dd8c76-6795-427e-96b2-0b6f3bf3b54c")
+		)
+		(pin "9"
+			(uuid "45596e87-e990-4b5e-8b95-b3b6ccbc4e19")
+		)
+		(pin "14"
+			(uuid "17012b55-856f-47d3-83ac-fe6e765b43b5")
+		)
+		(pin "8"
+			(uuid "cfc31442-05ea-4f9f-a4c6-2ab17134ad17")
+		)
+		(pin "7"
+			(uuid "ad89f19c-eef2-47c8-8ed5-6b5e0e25b8cd")
+		)
+		(pin "5"
+			(uuid "56f0bfe2-ffd8-4163-a8c2-22006aeed978")
+		)
+		(pin "4"
+			(uuid "834b7866-ccfc-4e9d-bcea-a21c5b5bd7d3")
+		)
+		(pin "11"
+			(uuid "2b994775-c807-4dc8-9dbb-da2433dd82cf")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 222.25 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e693ff9-d8a6-4f4c-b239-87bfff1f1829")
+		(property "Reference" "Q1"
+			(at 227.33 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN"
+			(at 227.33 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 285.75 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "bc8x7b.lib"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "BC847B"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4fdcf411-053b-4bb5-b300-641f3a54d5c0")
+		)
+		(pin "3"
+			(uuid "8f6c20aa-c490-4e5e-909b-a7a0efe0fa79")
+		)
+		(pin "1"
+			(uuid "580852cb-3a6f-4100-9cad-36bea89f93aa")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3009,6 +5413,298 @@
 			(project "CompressorSim"
 				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VSIN")
+		(at 77.47 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d4e6d0-c180-435b-925d-6ebf3b1d30a8")
+		(property "Reference" "V6"
+			(at 81.28 143.3801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VSIN"
+			(at 81.28 145.9201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 77.47 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage source, sinusoidal"
+			(at 77.47 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 77.47 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "dc=9 ampl=.25 f=440 td=0 theta=0 phase=0 ac=1"
+			(at 81.28 148.4601 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Type" "SIN"
+			(at 77.47 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 77.47 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "55062f90-7a01-4b44-a5a7-65dc62ddcab3")
+		)
+		(pin "1"
+			(uuid "55a8bdd0-74a4-4d11-970d-1598a137cdbf")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "V6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 224.79 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c99c155-4312-48bf-98c3-7f90c171901b")
+		(property "Reference" "R9"
+			(at 227.33 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k2"
+			(at 227.33 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.774 89.916 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 224.79 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e70bd3d-c537-49c7-8efc-ea874f2cce42")
+		)
+		(pin "1"
+			(uuid "4ddb07d1-fc76-4ee0-ab6b-c4ec0ecd5bff")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 146.05 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d1d175d-cd0e-4554-9c46-db2d469c43ad")
+		(property "Reference" "R13"
+			(at 148.59 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 148.59 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.066 147.574 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 146.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4031f875-8078-4f0e-9311-7b595e71c590")
+		)
+		(pin "2"
+			(uuid "13f12deb-dcb7-4a94-9e3e-6405b33129e0")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3256,6 +5952,420 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM13700")
+		(at 143.51 134.62 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75678d1b-d3a8-41e2-ae3d-a71f3c72f16a")
+		(property "Reference" "U2"
+			(at 140.97 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM13700"
+			(at 140.97 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+			(at 135.89 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 143.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "lm13700_dual.cir"
+			(at 143.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LM13700_dual"
+			(at 143.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 143.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14 15=15 16=16"
+			(at 143.51 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "454041c4-859b-47cd-97b8-c84e4eb16e20")
+		)
+		(pin "10"
+			(uuid "a0f2d327-4319-408a-8c87-a50f3bd2531f")
+		)
+		(pin "3"
+			(uuid "cc9e1504-77ed-472b-96cd-e1b41b715dac")
+		)
+		(pin "1"
+			(uuid "bfee4a80-de0b-4a51-8687-047cd2922f9e")
+		)
+		(pin "2"
+			(uuid "f1fd76a7-2b80-419e-9bad-564f1791934a")
+		)
+		(pin "12"
+			(uuid "f679cc7e-0677-429f-bb45-6e1b12d00017")
+		)
+		(pin "13"
+			(uuid "d51f4f3e-ba71-4ec8-9e93-b2c00684300c")
+		)
+		(pin "15"
+			(uuid "93f467f6-9946-4fda-b962-56c9b5c132ab")
+		)
+		(pin "16"
+			(uuid "13dd8c76-6795-427e-96b2-0b6f3bf3b54c")
+		)
+		(pin "9"
+			(uuid "45596e87-e990-4b5e-8b95-b3b6ccbc4e19")
+		)
+		(pin "14"
+			(uuid "17012b55-856f-47d3-83ac-fe6e765b43b5")
+		)
+		(pin "8"
+			(uuid "cfc31442-05ea-4f9f-a4c6-2ab17134ad17")
+		)
+		(pin "7"
+			(uuid "ad89f19c-eef2-47c8-8ed5-6b5e0e25b8cd")
+		)
+		(pin "5"
+			(uuid "56f0bfe2-ffd8-4163-a8c2-22006aeed978")
+		)
+		(pin "4"
+			(uuid "834b7866-ccfc-4e9d-bcea-a21c5b5bd7d3")
+		)
+		(pin "11"
+			(uuid "2b994775-c807-4dc8-9dbb-da2433dd82cf")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM13700")
+		(at 116.84 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "769bd007-af66-4f77-8521-7724d349f50b")
+		(property "Reference" "U2"
+			(at 116.84 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM13700"
+			(at 116.84 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+			(at 109.22 133.985 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "lm13700_dual.cir"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LM13700_dual"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14 15=15 16=16"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "454041c4-859b-47cd-97b8-c84e4eb16e20")
+		)
+		(pin "10"
+			(uuid "a0f2d327-4319-408a-8c87-a50f3bd2531f")
+		)
+		(pin "3"
+			(uuid "cc9e1504-77ed-472b-96cd-e1b41b715dac")
+		)
+		(pin "1"
+			(uuid "bfee4a80-de0b-4a51-8687-047cd2922f9e")
+		)
+		(pin "2"
+			(uuid "f1fd76a7-2b80-419e-9bad-564f1791934a")
+		)
+		(pin "12"
+			(uuid "f679cc7e-0677-429f-bb45-6e1b12d00017")
+		)
+		(pin "13"
+			(uuid "d51f4f3e-ba71-4ec8-9e93-b2c00684300c")
+		)
+		(pin "15"
+			(uuid "93f467f6-9946-4fda-b962-56c9b5c132ab")
+		)
+		(pin "16"
+			(uuid "13dd8c76-6795-427e-96b2-0b6f3bf3b54c")
+		)
+		(pin "9"
+			(uuid "45596e87-e990-4b5e-8b95-b3b6ccbc4e19")
+		)
+		(pin "14"
+			(uuid "17012b55-856f-47d3-83ac-fe6e765b43b5")
+		)
+		(pin "8"
+			(uuid "cfc31442-05ea-4f9f-a4c6-2ab17134ad17")
+		)
+		(pin "7"
+			(uuid "ad89f19c-eef2-47c8-8ed5-6b5e0e25b8cd")
+		)
+		(pin "5"
+			(uuid "56f0bfe2-ffd8-4163-a8c2-22006aeed978")
+		)
+		(pin "4"
+			(uuid "834b7866-ccfc-4e9d-bcea-a21c5b5bd7d3")
+		)
+		(pin "11"
+			(uuid "2b994775-c807-4dc8-9dbb-da2433dd82cf")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 92.71 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b573adf-18eb-4703-8962-a63b77048db8")
+		(property "Reference" "R15"
+			(at 95.25 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 95.25 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.726 142.494 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 92.71 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75a4683a-3ad6-4adb-b4ec-e6f3f42ed0f4")
+		)
+		(pin "2"
+			(uuid "4c3de2d6-a25a-4ec5-bfc9-8a58a81240bb")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:VPULSE")
 		(at 19.05 56.388 0)
 		(unit 1)
@@ -3378,6 +6488,84 @@
 			(project "CompressorSim"
 				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
 					(reference "V2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+18V")
+		(at 21.59 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f1a217d-0c3e-46e7-b586-fd5ae5ea3388")
+		(property "Reference" "#PWR09"
+			(at 21.59 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+18V"
+			(at 21.59 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 21.59 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2eac439f-f607-452c-84cb-5ce8e10a5158")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3698,6 +6886,365 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:PNP")
+		(at 227.33 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "900e64ff-bb8b-46e4-8801-15414530e1c4")
+		(property "Reference" "Q2"
+			(at 222.25 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PNP"
+			(at 222.25 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 191.77 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 227.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 227.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 227.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 227.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "bc8x7b.lib"
+			(at 227.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "BC857B"
+			(at 227.33 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "395d202b-1e33-4deb-9f27-3cda2746b763")
+		)
+		(pin "1"
+			(uuid "32d86a10-8fc6-4010-b980-016bea056f5e")
+		)
+		(pin "3"
+			(uuid "91428351-648e-469e-8fa9-b6c5dda486e0")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "929b5367-c10d-4e4b-a02b-5f46b5dc3e9a")
+		(property "Reference" "#PWR013"
+			(at 146.05 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6582e2de-164a-4e4a-a8c7-15a6db32ed05")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PNP")
+		(at 251.46 55.88 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "932915ba-93bb-442f-91ec-bee21736eff8")
+		(property "Reference" "Q3"
+			(at 256.54 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PNP"
+			(at 256.54 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 287.02 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 251.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 251.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 251.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 251.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "bc8x7b.lib"
+			(at 251.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "BC857B"
+			(at 251.46 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c953add4-6caa-4b08-9d39-3a79d974f214")
+		)
+		(pin "1"
+			(uuid "e914ce77-d358-4bec-bf03-cb4ea70d02f0")
+		)
+		(pin "3"
+			(uuid "655ffeff-13c2-442a-80d2-e504e8b95968")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 99.06 88.9 0)
 		(unit 1)
@@ -3720,7 +7267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9"
+		(property "Value" "8.5"
 			(at 102.87 90.0401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3893,6 +7440,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM13700")
+		(at 222.25 121.92 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a007948d-63b1-4450-9357-0fe21e04dc69")
+		(property "Reference" "U2"
+			(at 222.25 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM13700"
+			(at 222.25 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 121.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+			(at 214.63 121.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "lm13700_dual.cir"
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LM13700_dual"
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14 15=15 16=16"
+			(at 222.25 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "454041c4-859b-47cd-97b8-c84e4eb16e20")
+		)
+		(pin "10"
+			(uuid "a0f2d327-4319-408a-8c87-a50f3bd2531f")
+		)
+		(pin "3"
+			(uuid "cc9e1504-77ed-472b-96cd-e1b41b715dac")
+		)
+		(pin "1"
+			(uuid "bfee4a80-de0b-4a51-8687-047cd2922f9e")
+		)
+		(pin "2"
+			(uuid "f1fd76a7-2b80-419e-9bad-564f1791934a")
+		)
+		(pin "12"
+			(uuid "f679cc7e-0677-429f-bb45-6e1b12d00017")
+		)
+		(pin "13"
+			(uuid "d51f4f3e-ba71-4ec8-9e93-b2c00684300c")
+		)
+		(pin "15"
+			(uuid "93f467f6-9946-4fda-b962-56c9b5c132ab")
+		)
+		(pin "16"
+			(uuid "13dd8c76-6795-427e-96b2-0b6f3bf3b54c")
+		)
+		(pin "9"
+			(uuid "45596e87-e990-4b5e-8b95-b3b6ccbc4e19")
+		)
+		(pin "14"
+			(uuid "17012b55-856f-47d3-83ac-fe6e765b43b5")
+		)
+		(pin "8"
+			(uuid "cfc31442-05ea-4f9f-a4c6-2ab17134ad17")
+		)
+		(pin "7"
+			(uuid "ad89f19c-eef2-47c8-8ed5-6b5e0e25b8cd")
+		)
+		(pin "5"
+			(uuid "56f0bfe2-ffd8-4163-a8c2-22006aeed978")
+		)
+		(pin "4"
+			(uuid "834b7866-ccfc-4e9d-bcea-a21c5b5bd7d3")
+		)
+		(pin "11"
+			(uuid "2b994775-c807-4dc8-9dbb-da2433dd82cf")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+18V")
 		(at 19.304 87.122 0)
 		(unit 1)
@@ -3965,6 +7678,88 @@
 			(project "CompressorSim"
 				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 101.6 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a228697f-6981-4cff-ba50-d0b94e59c784")
+		(property "Reference" "R16"
+			(at 104.14 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 104.14 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.616 142.494 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 101.6 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0cf4dd9-fd94-46ad-86b1-6fb3739707fb")
+		)
+		(pin "2"
+			(uuid "5454feea-144c-4b14-a4d0-f7333a267cee")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4448,6 +8243,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+18V")
+		(at 224.79 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6400544-aefc-42e9-bb87-98cfd26b85c3")
+		(property "Reference" "#PWR011"
+			(at 224.79 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+18V"
+			(at 224.79 30.988 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 224.79 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcfcd24c-7d9f-45c1-ae5d-14a8b6f898ca")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:D")
 		(at 139.7 63.5 0)
 		(mirror x)
@@ -4573,8 +8446,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 146.05 22.86 0)
-		(mirror x)
+		(at 200.66 73.66 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4584,7 +8456,7 @@
 		(dnp no)
 		(uuid "da8e9d96-19f5-4da9-ba80-e5bc5ed8fe79")
 		(property "Reference" "U1"
-			(at 146.05 33.528 0)
+			(at 200.66 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4594,7 +8466,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 146.05 30.988 0)
+			(at 200.66 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4604,7 +8476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 25.4 0)
+			(at 199.39 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4615,7 +8487,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 147.32 27.94 0)
+			(at 201.93 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4626,7 +8498,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 146.05 22.86 0)
+			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4637,7 +8509,7 @@
 			)
 		)
 		(property "Sim.Library" "tl074-quad.lib"
-			(at 146.05 22.86 0)
+			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +8520,7 @@
 			)
 		)
 		(property "Sim.Name" "TL074c"
-			(at 146.05 22.86 0)
+			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,7 +8531,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 146.05 22.86 0)
+			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4670,7 +8542,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 146.05 22.86 0)
+			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,6 +8599,332 @@
 				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
 					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e049e9dc-3ac3-4ae1-87f8-cc57e8f455ee")
+		(property "Reference" "#PWR012"
+			(at 77.47 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8fd05553-f11c-4f20-ae55-cccc613348e2")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM13700")
+		(at 24.13 127 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e67992bb-03b8-4985-b229-7921b1559d6d")
+		(property "Reference" "U2"
+			(at 22.86 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM13700"
+			(at 22.86 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 126.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+			(at 16.51 126.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16"
+			(at 24.13 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "lm13700_dual.cir"
+			(at 24.13 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LM13700_dual"
+			(at 24.13 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 24.13 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14 15=15 16=16"
+			(at 24.13 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "454041c4-859b-47cd-97b8-c84e4eb16e20")
+		)
+		(pin "10"
+			(uuid "a0f2d327-4319-408a-8c87-a50f3bd2531f")
+		)
+		(pin "3"
+			(uuid "cc9e1504-77ed-472b-96cd-e1b41b715dac")
+		)
+		(pin "1"
+			(uuid "bfee4a80-de0b-4a51-8687-047cd2922f9e")
+		)
+		(pin "2"
+			(uuid "f1fd76a7-2b80-419e-9bad-564f1791934a")
+		)
+		(pin "12"
+			(uuid "f679cc7e-0677-429f-bb45-6e1b12d00017")
+		)
+		(pin "13"
+			(uuid "d51f4f3e-ba71-4ec8-9e93-b2c00684300c")
+		)
+		(pin "15"
+			(uuid "93f467f6-9946-4fda-b962-56c9b5c132ab")
+		)
+		(pin "16"
+			(uuid "13dd8c76-6795-427e-96b2-0b6f3bf3b54c")
+		)
+		(pin "9"
+			(uuid "45596e87-e990-4b5e-8b95-b3b6ccbc4e19")
+		)
+		(pin "14"
+			(uuid "17012b55-856f-47d3-83ac-fe6e765b43b5")
+		)
+		(pin "8"
+			(uuid "cfc31442-05ea-4f9f-a4c6-2ab17134ad17")
+		)
+		(pin "7"
+			(uuid "ad89f19c-eef2-47c8-8ed5-6b5e0e25b8cd")
+		)
+		(pin "5"
+			(uuid "56f0bfe2-ffd8-4163-a8c2-22006aeed978")
+		)
+		(pin "4"
+			(uuid "834b7866-ccfc-4e9d-bcea-a21c5b5bd7d3")
+		)
+		(pin "11"
+			(uuid "2b994775-c807-4dc8-9dbb-da2433dd82cf")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee02f71b-1613-447a-b8fb-c498283b823c")
+		(property "Reference" "#PWR010"
+			(at 21.59 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7565e5c-4b49-4e82-9d92-50944ffaefdf")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "#PWR010")
+					(unit 1)
 				)
 			)
 		)
@@ -4806,6 +9004,86 @@
 			(project "CompressorSim"
 				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 83.82 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef041206-c813-403c-9d41-3c32c8c3fc6d")
+		(property "Reference" "R14"
+			(at 83.82 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 83.82 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 84.074 136.144 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 83.82 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a213207-65f8-49f9-9dc5-6794ca573cc0")
+		)
+		(pin "2"
+			(uuid "4e7a4030-f427-41b6-8efc-2cfbf0a4ec27")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5012,6 +9290,88 @@
 			(project "CompressorSim"
 				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 224.79 43.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fac94ede-11aa-4834-9365-d15bc31e0da4")
+		(property "Reference" "R10"
+			(at 227.33 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470"
+			(at 227.33 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.774 42.926 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 224.79 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1bb7d489-d1ef-4685-9d16-6374efd2b086")
+		)
+		(pin "1"
+			(uuid "9d8a6db3-708a-4efc-8573-29bc1c645f3b")
+		)
+		(instances
+			(project "CompressorSim"
+				(path "/20c2dab5-c6c0-43eb-8440-16725dd945c9"
+					(reference "R10")
 					(unit 1)
 				)
 			)
