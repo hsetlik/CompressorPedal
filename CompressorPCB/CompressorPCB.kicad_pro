@@ -416,7 +416,7 @@
         "uuid": "d83271dd-8c43-488a-98f3-da062b8f90ac"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW2,J2,U6-7,#PWR37-51,#PWR337,C16-17,C19-20,C22,D7-8,R42-52",
     "variants": []
   },
   "sheets": [
@@ -431,6 +431,10 @@
     [
       "8a93cbbb-d9cf-49c2-b0e6-283a6e9ffda4",
       "Power"
+    ],
+    [
+      "d60ebc28-189d-4249-afe6-e965ecbffaf8",
+      "Digital"
     ]
   ],
   "text_variables": {},
