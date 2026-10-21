@@ -51,6 +51,52 @@
 			)
 		)
 	)
+	(sheet
+		(at 98.425 22.225)
+		(size 34.925 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8a93cbbb-d9cf-49c2-b0e6-283a6e9ffda4")
+		(property "Sheetname" "Power"
+			(at 98.425 21.5134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 98.425 49.4796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
