@@ -18,6 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "norm_range.h"
+#include <stdint.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -54,6 +56,9 @@ uint16_t adcBuf[ADC_BUF_SIZE * 4];
 // points at the half of adcBuf that the DMA just finished filling
 volatile uint16_t* currentBuffer = adcBuf;
 volatile uint8_t bufferReady = 0;
+
+norm_range_t controlRange;
+norm_range_t outputRange;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -64,26 +69,42 @@ static void MX_SPI1_Init(void);
 static void MX_ADC_Init(void);
 static void MX_TIM6_Init(void);
 /* USER CODE BEGIN PFP */
-// update the LEDs to reflect the new 
+// call this to set up the norm_ranges
+void init_norm_ranges();
+// update the LEDs to reflect the latest levels
+void update_level_leds(float avg1, float avg2);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint16_t getADC1Average(uint16_t* buf){
+float getADC1Average(uint16_t* buf){
   float sum = 0.0f;
   for(uint16_t i = 0; i < ADC_BUF_SIZE; ++i){
     sum += (float)buf[2 * i];
   }
-  return (uint16_t)(sum / (float)ADC_BUF_SIZE);
+  return sum / (float)ADC_BUF_SIZE;
 }
-uint16_t getADC2Average(uint16_t* buf){
+float getADC2Average(uint16_t* buf){
   float sum = 0.0f;
   for(uint16_t i = 0; i < ADC_BUF_SIZE; ++i){
     sum += (float)buf[(2 * i) + 1];
   }
-  return (uint16_t)(sum / (float)ADC_BUF_SIZE);
+
+  return sum / (float)ADC_BUF_SIZE;
+}
+void init_norm_ranges(){
+  norm_range_init(&controlRange, CONTROL_ADC_MIN, CONTROL_ADC_MAX, CONTROL_ADC_CENTER);
+  norm_range_init(&outputRange, OUTPUT_ADC_MIN, OUTPUT_ADC_MAX, OUTPUT_ADC_CENTER);
 }
 
+
+void update_level_leds(float avg1, float avg2){
+  const float controlNorm = norm_range_normalize(&controlRange, avg1);
+  const float outputNorm = norm_range_normalize(&outputRange, avg2);
+  uint16_t numLEDsControl = (uint16_t)((1.0f - controlNorm) * 8.0f);
+  uint16_t numLEDsOutput = (uint16_t)(outputNorm * 8.0f); 
+
+}
 /* USER CODE END 0 */
 
 /**
@@ -135,12 +156,17 @@ int main(void)
   {
     Error_Handler();
   }
+  // initialize the norm ranges
+  init_norm_ranges();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    if(bufferReady){
+
+    }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

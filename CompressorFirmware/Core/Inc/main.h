@@ -47,14 +47,22 @@ extern "C" {
 /* Exported macro ------------------------------------------------------------*/
 /* USER CODE BEGIN EM */
 #define ADC_BUF_SIZE 64
+
+#define CONTROL_ADC_MIN 50.0f
+#define CONTROL_ADC_MAX 4095.0f
+#define CONTROL_ADC_CENTER 1700.0f
+
+#define OUTPUT_ADC_MIN 50.0f
+#define OUTPUT_ADC_MAX 4095.0f
+#define OUTPUT_ADC_CENTER 1700.0f
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-uint16_t getADC1Average(uint16_t* buf);
-uint16_t getADC2Average(uint16_t* buf);
+float getADC1Average(uint16_t* buf);
+float getADC2Average(uint16_t* buf);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
