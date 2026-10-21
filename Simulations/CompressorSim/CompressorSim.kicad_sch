@@ -4537,6 +4537,16 @@
 		)
 		(uuid "37fd097d-e2ff-4240-8f30-b1131654a966")
 	)
+	(label "BiasedOut"
+		(at 163.83 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62c8005d-7769-4d4c-93b2-cfcbbf550473")
+	)
 	(label "Env"
 		(at 26.67 66.04 0)
 		(effects
@@ -7702,7 +7712,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100n"
 			(at 156.21 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)

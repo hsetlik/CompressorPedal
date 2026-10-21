@@ -3078,12 +3078,6 @@
 		(uuid "5f77c5a1-a737-4e65-9f8a-f01463d71624")
 	)
 	(junction
-		(at 243.84 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62256912-abd9-48ab-a559-5848cf060db2")
-	)
-	(junction
 		(at 157.48 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3136,6 +3130,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9af59048-87d7-478f-a6b9-9737b32640eb")
+	)
+	(junction
+		(at 204.47 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b4df2ef-4418-4ea3-a22e-0045feeed7ef")
 	)
 	(junction
 		(at 132.08 218.44)
@@ -4037,16 +4037,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 240.03) (xy 246.38 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "681c336c-5fa9-4317-bc4c-6d23bceb7230")
-	)
-	(wire
-		(pts
 			(xy 86.36 50.8) (xy 88.9 50.8)
 		)
 		(stroke
@@ -4597,6 +4587,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 218.44) (xy 207.01 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf6a9eb-a098-4038-bba6-08e706f5247d")
+	)
+	(wire
+		(pts
 			(xy 185.42 36.83) (xy 203.2 36.83)
 		)
 		(stroke
@@ -5127,7 +5127,7 @@
 	)
 	(global_label "OUT_BIASED"
 		(shape output)
-		(at 246.38 240.03 0)
+		(at 207.01 218.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5138,7 +5138,7 @@
 		)
 		(uuid "1337d1d6-8498-4bb9-af53-7a38afd09787")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.5533 240.03 0)
+			(at 221.1833 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5404,6 +5404,12 @@
 			(uuid "2b994775-c807-4dc8-9dbb-da2433dd82cf")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U3")
+					(unit 4)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U3")
@@ -5483,6 +5489,12 @@
 			(uuid "7f7851d4-e237-4a93-9d42-0a14a7c5f3b5")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR08")
@@ -5593,6 +5605,12 @@
 			(uuid "af6ea7c5-a6fc-4ac5-9846-2b4c08e7baad")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "Q2")
@@ -5673,6 +5691,12 @@
 			(uuid "bd93421a-d258-492d-a220-57b019963f12")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R31")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R31")
@@ -5755,6 +5779,12 @@
 			(uuid "f822f154-71e9-4b0e-9224-68a805e87f8b")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R2")
@@ -5835,6 +5865,12 @@
 			(uuid "03ef12fb-31b9-44fa-952d-344efb81c89d")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R33")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R33")
@@ -5915,6 +5951,12 @@
 			(uuid "d90f350c-e5af-473b-af47-508338d77181")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "C7")
@@ -5994,6 +6036,12 @@
 			(uuid "e8830695-f10f-423c-8892-704cdfcd537c")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR06")
@@ -6072,6 +6120,12 @@
 			(uuid "bd6b2527-126a-4cee-8692-b5a411cf6bc0")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR04")
@@ -6232,6 +6286,12 @@
 			(uuid "433f4da7-b1c5-45be-ade2-c7cb8a78486b")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U1")
@@ -6312,6 +6372,12 @@
 			(uuid "5483cf16-6db4-45c2-b310-1af079c44529")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R16")
@@ -6394,6 +6460,12 @@
 			(uuid "055d5d29-2447-4aa1-bad4-d72538b9da77")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "C1")
@@ -6474,6 +6546,12 @@
 			(uuid "88aa0675-35ba-4283-a144-97c44a27c24f")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R19")
@@ -6554,6 +6632,12 @@
 			(uuid "a6b8c8e6-8da6-4d17-9339-2d563cc7f744")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R27")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R27")
@@ -6634,6 +6718,12 @@
 			(uuid "ec958cc1-307d-46f3-93c9-9f390ea5c1ae")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R15")
@@ -6763,6 +6853,12 @@
 			(uuid "8e3d3a73-2861-461d-bcec-8f0e6e88daf3")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R25")
@@ -6843,6 +6939,12 @@
 			(uuid "5154d82d-24f8-4b70-a337-5244525d0b8e")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R12")
@@ -6925,6 +7027,12 @@
 			(uuid "1b361858-74a5-4991-9d34-a2330d4a2c6e")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R36")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R36")
@@ -7004,6 +7112,12 @@
 			(uuid "5f42712b-6f44-4f1f-89df-0aa3dcfcb2b4")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR02")
@@ -7114,6 +7228,12 @@
 			(uuid "1eb79386-aca5-4fa6-8a28-5c3f0217267c")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "Q3")
@@ -7196,6 +7316,12 @@
 			(uuid "37db01f4-56c0-4cf3-bce2-e28e258f6cea")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "C3")
@@ -7356,6 +7482,12 @@
 			(uuid "f626e1bc-262d-49c3-873a-17d8904799c9")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U1")
+					(unit 3)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U1")
@@ -7436,6 +7568,12 @@
 			(uuid "2e4f2dcf-02c2-4ec2-b19b-6e9ec6a63ca3")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "C2")
@@ -7514,6 +7652,12 @@
 			(uuid "866e5217-f1a9-4ca2-9af1-73912a6c8faa")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR07")
@@ -7596,6 +7740,12 @@
 			(uuid "7f65d4cb-f0f1-4a9a-b18c-2670fc91d61e")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R34")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R34")
@@ -7720,6 +7870,12 @@
 			(uuid "447f0aba-0a9b-4152-b251-1e9bb13ed221")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "D5")
@@ -7847,6 +8003,12 @@
 			(uuid "a24ec6f6-9c33-4d35-abeb-a8b90304bd4f")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R28")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R28")
@@ -7927,6 +8089,12 @@
 			(uuid "6311e537-7eaa-4976-84e5-3d06d11a3f44")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R17")
@@ -8089,6 +8257,12 @@
 			(uuid "95ce873f-5d0d-4f4f-8337-c0ef702459bb")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U2")
+					(unit 5)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U2")
@@ -8167,6 +8341,12 @@
 			(uuid "4ec64d30-faff-4fde-bb60-90854e3ff9bf")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR025")
@@ -8249,6 +8429,12 @@
 			(uuid "0098612b-b5bb-4c20-aa02-81a9fc2273d4")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R18")
@@ -8331,6 +8517,12 @@
 			(uuid "3eeb9666-c82a-4ae5-929d-c6e7e8e365a3")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R13")
@@ -8410,6 +8602,12 @@
 			(uuid "92df5728-c298-4ede-b446-c63ef5d0c670")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR017")
@@ -8538,6 +8736,12 @@
 			(uuid "507af7b3-fb32-4992-94a2-d2ff3dd5b113")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R32")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R32")
@@ -8618,6 +8822,12 @@
 			(uuid "d0be82b7-dca1-401c-a985-7397ea98b33e")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "C5")
@@ -8698,6 +8908,12 @@
 			(uuid "41ac8ab9-9996-451f-b7d6-120baf9f353c")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R23")
@@ -8778,6 +8994,12 @@
 			(uuid "e5169e36-7d33-42e8-9d11-71064c5fc194")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R7")
@@ -8944,6 +9166,12 @@
 			(uuid "2b994775-c807-4dc8-9dbb-da2433dd82d0")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U3")
+					(unit 2)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U3")
@@ -9026,6 +9254,12 @@
 			(uuid "a39d37f3-95c1-4cd4-9651-3afd33903b29")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "C6")
@@ -9105,6 +9339,12 @@
 			(uuid "e7c7b231-0955-43c4-b998-4bdd55d82da4")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR020")
@@ -9183,6 +9423,12 @@
 			(uuid "95304f17-8c61-456a-aa16-ba1297e2871a")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR018")
@@ -9345,6 +9591,12 @@
 			(uuid "433f4da7-b1c5-45be-ade2-c7cb8a78486a")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U1")
+					(unit 5)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U1")
@@ -9427,6 +9679,12 @@
 			(uuid "01e318ee-27fb-4f03-8f9f-d8fa7eeb1d6a")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R11")
@@ -9506,6 +9764,12 @@
 			(uuid "84188492-d4df-4478-8fdf-34df8a549b6a")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR015")
@@ -9616,6 +9880,12 @@
 			(uuid "8bc8494e-080e-4636-b412-a6a7b0eafdd0")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "Q1")
@@ -9743,6 +10013,12 @@
 			(uuid "ed7997a4-64e0-40aa-af62-1e1b381ca063")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R6")
@@ -9823,6 +10099,12 @@
 			(uuid "bdc6cf13-52a9-44a0-998d-7ac9170ab2ac")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R24")
@@ -9901,6 +10183,12 @@
 			(uuid "aba1cbd2-7703-47cf-bff1-637d6ccfa2d5")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR022")
@@ -9983,6 +10271,12 @@
 			(uuid "cb46d26d-25fc-4679-a324-3ab33c26feaf")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R1")
@@ -10062,6 +10356,12 @@
 			(uuid "dfa5990f-3b44-4a4e-a463-8e741d66ba06")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR012")
@@ -10222,6 +10522,12 @@
 			(uuid "433f4da7-b1c5-45be-ade2-c7cb8a78486d")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U1")
+					(unit 2)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U1")
@@ -10300,6 +10606,12 @@
 			(uuid "fd8d7ad1-2b8f-4acf-9dcb-467a7b343463")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR016")
@@ -10459,6 +10771,12 @@
 			(uuid "95ce873f-5d0d-4f4f-8337-c0ef702459be")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U2")
+					(unit 3)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U2")
@@ -10572,6 +10890,12 @@
 			(uuid "55877266-920d-4ac8-86b8-c4be48e6b8e7")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "D4")
@@ -10654,6 +10978,12 @@
 			(uuid "74919a05-3714-4bd9-88d6-d5fcdaa378ed")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R35")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R35")
@@ -10736,6 +11066,12 @@
 			(uuid "e882143b-a1ad-4e06-8889-79af60440ae9")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R21")
@@ -10815,6 +11151,12 @@
 			(uuid "e1846efb-d8b3-4076-a35f-4adf2c9b6d4d")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR01")
@@ -10897,6 +11239,12 @@
 			(uuid "41a9d8c2-efbe-442d-a4da-7f0ce24456ab")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R4")
@@ -10975,6 +11323,12 @@
 			(uuid "087c0f3a-a051-47e1-a821-e6724c305728")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR023")
@@ -11053,6 +11407,12 @@
 			(uuid "a3e3cd3e-776a-42ca-a2d9-5e44e260520e")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR05")
@@ -11177,6 +11537,12 @@
 			(uuid "cbf0203a-6c8d-41a6-97b1-a78e73107252")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "D3")
@@ -11257,6 +11623,12 @@
 			(uuid "03a9ba88-fc10-476a-a55d-4d0d9078464e")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R14")
@@ -11337,6 +11709,12 @@
 			(uuid "08c94a45-c707-408a-adc0-43381bdcffa4")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R5")
@@ -11415,6 +11793,12 @@
 			(uuid "980fd44d-e48a-432c-8910-c336ecb03caa")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR013")
@@ -11497,6 +11881,12 @@
 			(uuid "54bc865f-726a-4ef5-a8fc-857a3027668a")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "C4")
@@ -11657,6 +12047,12 @@
 			(uuid "95ce873f-5d0d-4f4f-8337-c0ef702459bc")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U2")
@@ -11817,6 +12213,12 @@
 			(uuid "433f4da7-b1c5-45be-ade2-c7cb8a784869")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U1")
+					(unit 4)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U1")
@@ -11895,6 +12297,12 @@
 			(uuid "5f475cc7-199f-426a-bf63-8661fd24fafe")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR014")
@@ -12024,6 +12432,12 @@
 			(uuid "29d55f61-c790-41be-b142-a8038a2d5203")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R10")
@@ -12103,6 +12517,12 @@
 			(uuid "a12748da-4e04-413e-9500-0fd820d6eb2a")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR03")
@@ -12185,6 +12605,12 @@
 			(uuid "a4b9badf-2725-4901-9702-bed6209fa2bf")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R26")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R26")
@@ -12300,6 +12726,12 @@
 			(uuid "428f038f-4ddb-4dd2-8734-6b9a6d7ee47c")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "D2")
@@ -12466,6 +12898,12 @@
 			(uuid "2b994775-c807-4dc8-9dbb-da2433dd82d1")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U3")
@@ -12632,6 +13070,12 @@
 			(uuid "2b994775-c807-4dc8-9dbb-da2433dd82d2")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U3")
+					(unit 3)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U3")
@@ -12792,6 +13236,12 @@
 			(uuid "1ca3f1aa-7321-49fa-9953-2b849347f0c6")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U2")
+					(unit 2)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U2")
@@ -12870,6 +13320,12 @@
 			(uuid "0736c9ee-8bfd-4341-89a3-ff9d87a7c31b")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR09")
@@ -12949,6 +13405,12 @@
 			(uuid "72fc95bd-d58e-4f72-baa9-8679d9774396")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR019")
@@ -13031,6 +13493,12 @@
 			(uuid "121f64bf-a121-4049-8919-29cdf8cc9650")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R29")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R29")
@@ -13109,6 +13577,12 @@
 			(uuid "80c50757-e963-4505-a595-07dd74d07188")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR024")
@@ -13189,6 +13663,12 @@
 			(uuid "98638fae-176c-4c73-9a1d-aaf200a7fa0a")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R20")
@@ -13271,6 +13751,12 @@
 			(uuid "727c7850-f1d6-43ae-b11d-c2ef8976649b")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R8")
@@ -13386,6 +13872,12 @@
 			(uuid "389794f4-f470-4379-91aa-de986699f25d")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "D1")
@@ -13468,6 +13960,12 @@
 			(uuid "e76fd7f8-490e-49f3-814b-365313d69110")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R22")
@@ -13636,6 +14134,12 @@
 			(uuid "b9a37ca2-9d1c-4414-a2c3-c785aa0ad9d1")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U3")
+					(unit 5)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U3")
@@ -13718,6 +14222,12 @@
 			(uuid "c6127961-9655-4261-a31e-f685816354bc")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R9")
@@ -13796,6 +14306,12 @@
 			(uuid "c238fe66-d165-4a40-b2fd-8c86a0ee3d44")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR021")
@@ -13876,6 +14392,12 @@
 			(uuid "23a30032-e51a-42c7-b181-16aad097fd07")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R3")
@@ -13955,6 +14477,12 @@
 			(uuid "538c6aa5-795a-41c8-9029-6333fe3d0b14")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR011")
@@ -14035,6 +14563,12 @@
 			(uuid "e0eac8d4-e07a-444a-b1e3-77cf8d9719b6")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "R30")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "R30")
@@ -14195,6 +14729,12 @@
 			(uuid "95ce873f-5d0d-4f4f-8337-c0ef702459ba")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "U2")
+					(unit 4)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U2")
@@ -14273,6 +14813,12 @@
 			(uuid "e7298df1-f734-4c2c-b542-a94e8dc40927")
 		)
 		(instances
+			(project "Analog"
+				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "#PWR010")
@@ -14281,4 +14827,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

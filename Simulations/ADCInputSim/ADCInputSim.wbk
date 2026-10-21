@@ -5,11 +5,11 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 10u 1 0 25u",
+        ".tran 25u 600m 0 55u",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
-        ".probe allp"
+        ".kicad esavenone"
       ],
       "dottedSecondary": true,
       "margins": {
@@ -22,13 +22,28 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(228, 26, 28)",
+          "color": "rgb(152, 78, 163)",
           "signal": "V(/Env)",
           "trace_type": 257
         },
         {
-          "color": "rgb(55, 126, 184)",
+          "color": "rgb(77, 175, 74)",
           "signal": "V(/EnvOut)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/Rect)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/VUout)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/vMirror)",
           "trace_type": 257
         }
       ]
