@@ -24,6 +24,16 @@
           "color": "rgb(228, 26, 28)",
           "signal": "V(/Env)",
           "trace_type": 257
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/HalfRect)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/RatioAmp)",
+          "trace_type": 257
         }
       ]
     }
