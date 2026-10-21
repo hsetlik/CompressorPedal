@@ -1,0 +1,60 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d83271dd-8c43-488a-98f3-da062b8f90ac")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 56.515 22.225)
+		(size 39.37 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0a6b8488-0f62-42c0-98f3-6115197266c2")
+		(property "Sheetname" "Analog"
+			(at 56.515 21.5134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog.kicad_sch"
+			(at 56.515 49.4796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

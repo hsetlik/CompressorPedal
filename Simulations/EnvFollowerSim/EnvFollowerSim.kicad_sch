@@ -2214,7 +2214,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.876 115.57) (xy 23.876 117.602)
+			(xy 24.13 85.598) (xy 24.13 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2234,7 +2234,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.876 94.742) (xy 23.876 96.012)
+			(xy 85.09 168.91) (xy 85.09 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2334,7 +2334,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 94.996) (xy 33.02 96.266)
+			(xy 94.234 169.164) (xy 94.234 170.434)
 		)
 		(stroke
 			(width 0)
@@ -2344,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.876 132.842) (xy 23.876 134.366)
+			(xy 24.13 102.87) (xy 24.13 104.394)
 		)
 		(stroke
 			(width 0)
@@ -2384,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 23.876 106.172) (xy 23.876 107.188)
+			(xy 85.09 180.34) (xy 85.09 181.356)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 106.426) (xy 33.02 107.442)
+			(xy 94.234 180.594) (xy 94.234 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2753,7 @@
 		(uuid "df075022-965c-47ee-8a9c-36118d3e2c1d")
 	)
 	(label "VG"
-		(at 33.02 94.996 0)
+		(at 94.234 169.164 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2774,7 +2774,7 @@
 	)
 	(symbol
 		(lib_id "power:+18V")
-		(at 23.876 94.742 0)
+		(at 85.09 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2785,7 +2785,7 @@
 		(fields_autoplaced yes)
 		(uuid "01362cf4-1703-47e3-8261-3416a742ffcb")
 		(property "Reference" "#PWR01"
-			(at 23.876 98.552 0)
+			(at 85.09 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2796,7 +2796,7 @@
 			)
 		)
 		(property "Value" "+18V"
-			(at 23.876 90.17 0)
+			(at 85.09 164.338 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2806,7 +2806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 23.876 94.742 0)
+			(at 85.09 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2817,7 +2817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 23.876 94.742 0)
+			(at 85.09 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2828,7 +2828,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 23.876 94.742 0)
+			(at 85.09 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,7 +3323,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 107.442 0)
+		(at 94.234 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3334,7 +3334,7 @@
 		(fields_autoplaced yes)
 		(uuid "197d8cb7-5854-46f2-85c1-0d1bab86b481")
 		(property "Reference" "#PWR05"
-			(at 33.02 113.792 0)
+			(at 94.234 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,7 +3345,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 111.252 0)
+			(at 94.234 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3356,7 +3356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 107.442 0)
+			(at 94.234 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,7 +3367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 107.442 0)
+			(at 94.234 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3378,7 +3378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 107.442 0)
+			(at 94.234 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3724,7 +3724,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at 33.02 101.346 0)
+		(at 94.234 175.514 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3735,7 +3735,7 @@
 		(fields_autoplaced yes)
 		(uuid "3be58370-11fd-476d-9e9f-45a6c6f68c1c")
 		(property "Reference" "V2"
-			(at 36.83 99.9461 0)
+			(at 98.044 174.1141 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3746,7 +3746,7 @@
 			)
 		)
 		(property "Value" "9"
-			(at 36.83 102.4861 0)
+			(at 98.044 176.6541 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3757,7 +3757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 101.346 0)
+			(at 94.234 175.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,7 +3768,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 33.02 101.346 0)
+			(at 94.234 175.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3779,7 +3779,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at 33.02 101.346 0)
+			(at 94.234 175.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +3790,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 33.02 101.346 0)
+			(at 94.234 175.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3801,7 +3801,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 33.02 101.346 0)
+			(at 94.234 175.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3812,7 +3812,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 33.02 101.346 0)
+			(at 94.234 175.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3840,7 +3840,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 26.416 125.222 0)
+		(at 26.67 95.25 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3851,7 +3851,7 @@
 		(fields_autoplaced yes)
 		(uuid "48b76349-0916-414b-b8f9-7c0a403221ea")
 		(property "Reference" "U1"
-			(at 24.892 123.9519 0)
+			(at 25.146 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3862,7 +3862,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 24.892 126.4919 0)
+			(at 25.146 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3873,7 +3873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.146 122.682 0)
+			(at 25.4 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 27.686 120.142 0)
+			(at 27.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3895,7 +3895,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 26.416 125.222 0)
+			(at 26.67 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3906,7 +3906,7 @@
 			)
 		)
 		(property "Sim.Library" "/Users/hayden/dev/STM32_Projects/CompressorPedal/CompressorSim/tl074-quad.lib"
-			(at 26.416 125.222 0)
+			(at 26.67 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3917,7 +3917,7 @@
 			)
 		)
 		(property "Sim.Name" "TL074c"
-			(at 26.416 125.222 0)
+			(at 26.67 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,7 +3928,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 26.416 125.222 0)
+			(at 26.67 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3939,7 +3939,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 26.416 125.222 0)
+			(at 26.67 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4244,7 +4244,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 23.876 134.366 0)
+		(at 24.13 104.394 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4255,7 +4255,7 @@
 		(fields_autoplaced yes)
 		(uuid "55b789e4-d49b-48b5-a94b-e441b8a9c7ad")
 		(property "Reference" "#PWR04"
-			(at 23.876 140.716 0)
+			(at 24.13 110.744 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,7 +4266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 23.876 138.176 0)
+			(at 24.13 108.204 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4277,7 +4277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 23.876 134.366 0)
+			(at 24.13 104.394 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4288,7 +4288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 23.876 134.366 0)
+			(at 24.13 104.394 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4299,7 +4299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 23.876 134.366 0)
+			(at 24.13 104.394 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4643,7 +4643,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at 23.876 101.092 0)
+		(at 85.09 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4654,7 +4654,7 @@
 		(fields_autoplaced yes)
 		(uuid "86644a7a-98b1-4478-8474-2209d18ab474")
 		(property "Reference" "V1"
-			(at 27.94 99.6921 0)
+			(at 89.154 173.8601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4665,7 +4665,7 @@
 			)
 		)
 		(property "Value" "18"
-			(at 27.94 102.2321 0)
+			(at 89.154 176.4001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4676,7 +4676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 23.876 101.092 0)
+			(at 85.09 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,7 +4687,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 23.876 101.092 0)
+			(at 85.09 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,7 +4698,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at 23.876 101.092 0)
+			(at 85.09 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,7 +4709,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 23.876 101.092 0)
+			(at 85.09 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +4720,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 23.876 101.092 0)
+			(at 85.09 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4731,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 23.876 101.092 0)
+			(at 85.09 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5575,7 +5575,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 23.876 107.188 0)
+		(at 85.09 181.356 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5586,7 +5586,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5a5464d-6580-4e8c-8e17-d3541064b0b0")
 		(property "Reference" "#PWR02"
-			(at 23.876 113.538 0)
+			(at 85.09 187.706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,7 +5597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 23.876 110.998 0)
+			(at 85.09 185.166 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,7 +5608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 23.876 107.188 0)
+			(at 85.09 181.356 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,7 +5619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 23.876 107.188 0)
+			(at 85.09 181.356 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5630,7 +5630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 23.876 107.188 0)
+			(at 85.09 181.356 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5894,7 +5894,7 @@
 	)
 	(symbol
 		(lib_id "power:+18V")
-		(at 23.876 115.57 0)
+		(at 24.13 85.598 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5905,7 +5905,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff26970d-9088-4596-a7e5-cd063720a8e0")
 		(property "Reference" "#PWR03"
-			(at 23.876 119.38 0)
+			(at 24.13 89.408 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5916,7 +5916,7 @@
 			)
 		)
 		(property "Value" "+18V"
-			(at 23.876 110.998 0)
+			(at 24.13 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5926,7 +5926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 23.876 115.57 0)
+			(at 24.13 85.598 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5937,7 +5937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 23.876 115.57 0)
+			(at 24.13 85.598 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5948,7 +5948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 23.876 115.57 0)
+			(at 24.13 85.598 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
