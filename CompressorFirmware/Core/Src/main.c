@@ -64,11 +64,25 @@ static void MX_SPI1_Init(void);
 static void MX_ADC_Init(void);
 static void MX_TIM6_Init(void);
 /* USER CODE BEGIN PFP */
-
+// update the LEDs to reflect the new 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint16_t getADC1Average(uint16_t* buf){
+  float sum = 0.0f;
+  for(uint16_t i = 0; i < ADC_BUF_SIZE; ++i){
+    sum += (float)buf[2 * i];
+  }
+  return (uint16_t)(sum / (float)ADC_BUF_SIZE);
+}
+uint16_t getADC2Average(uint16_t* buf){
+  float sum = 0.0f;
+  for(uint16_t i = 0; i < ADC_BUF_SIZE; ++i){
+    sum += (float)buf[(2 * i) + 1];
+  }
+  return (uint16_t)(sum / (float)ADC_BUF_SIZE);
+}
 
 /* USER CODE END 0 */
 

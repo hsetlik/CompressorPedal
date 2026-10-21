@@ -53,7 +53,8 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+uint16_t getADC1Average(uint16_t* buf);
+uint16_t getADC2Average(uint16_t* buf);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
