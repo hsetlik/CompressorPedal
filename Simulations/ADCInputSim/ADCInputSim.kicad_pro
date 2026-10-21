@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CompressorSim.kicad_pro",
+    "filename": "ADCInputSim.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -410,7 +410,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "CompressorSim.wbk"
+      "workbook_filename": "ADCInputSim.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -419,17 +419,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "CompressorSim.kicad_sch",
+        "filename": "ADCInputSim.kicad_sch",
         "name": "Root",
-        "uuid": "20c2dab5-c6c0-43eb-8440-16725dd945c9"
+        "uuid": "025225ba-e331-467c-9cee-bfead7d422ed"
       }
     ],
-    "used_designators": "V6,R9-16,#PWR9-14,Q1-3,U2",
+    "used_designators": "C1,R1-4,U1,V1-4,#PWR1-9",
     "variants": []
   },
   "sheets": [
     [
-      "20c2dab5-c6c0-43eb-8440-16725dd945c9",
+      "025225ba-e331-467c-9cee-bfead7d422ed",
       "Root"
     ]
   ],
