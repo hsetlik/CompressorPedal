@@ -2162,7 +2162,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Pack04_SIP_Split"
+		(symbol "Device:R_Pack04_Split"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2182,7 +2182,7 @@
 					)
 				)
 			)
-			(property "Value" "R_Pack04_SIP_Split"
+			(property "Value" "R_Pack04_Split"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2192,7 +2192,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_THT:R_Array_SIP8"
+			(property "Footprint" ""
 				(at -2.032 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2203,7 +2203,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2214,7 +2214,7 @@
 					)
 				)
 			)
-			(property "Description" "4 resistor network, parallel topology, SIP package, split"
+			(property "Description" "4 resistor network, parallel topology, split"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2236,7 +2236,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R?Array?SIP*"
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2247,7 +2247,7 @@
 					)
 				)
 			)
-			(symbol "R_Pack04_SIP_Split_0_1"
+			(symbol "R_Pack04_Split_0_1"
 				(rectangle
 					(start 1.016 2.54)
 					(end -1.016 -2.54)
@@ -2260,7 +2260,7 @@
 					)
 				)
 			)
-			(symbol "R_Pack04_SIP_Split_1_1"
+			(symbol "R_Pack04_Split_1_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
@@ -2289,7 +2289,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2298,7 +2298,7 @@
 					)
 				)
 			)
-			(symbol "R_Pack04_SIP_Split_2_1"
+			(symbol "R_Pack04_Split_2_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
@@ -2309,7 +2309,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2327,7 +2327,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2336,7 +2336,7 @@
 					)
 				)
 			)
-			(symbol "R_Pack04_SIP_Split_3_1"
+			(symbol "R_Pack04_Split_3_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
@@ -2347,7 +2347,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2374,7 +2374,7 @@
 					)
 				)
 			)
-			(symbol "R_Pack04_SIP_Split_4_1"
+			(symbol "R_Pack04_Split_4_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
@@ -2385,7 +2385,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2403,7 +2403,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6324,10 +6324,16 @@
 		(uuid "043a4b88-0866-4ab7-8187-cf015349a8c1")
 	)
 	(junction
-		(at 35.56 240.03)
+		(at 35.56 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b21bc4e-df56-4cc4-8f38-0e58b40b3f01")
+		(uuid "0d27a19e-777d-463e-8456-2f7a57f6ff08")
+	)
+	(junction
+		(at 35.56 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e120799-aefd-4eb2-acd2-69a5c3a082fc")
 	)
 	(junction
 		(at 35.56 165.1)
@@ -6346,12 +6352,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2436ec1c-842f-4596-9b4e-0047650113a7")
-	)
-	(junction
-		(at 35.56 262.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "292c4ada-2a5d-441b-bfce-2ba5f7b391d1")
 	)
 	(junction
 		(at 184.15 49.53)
@@ -6378,22 +6378,22 @@
 		(uuid "4dc486d5-b665-433c-a182-79d2f9eaf2e2")
 	)
 	(junction
+		(at 35.56 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51026091-ea17-45e3-8ab3-b9423702e94d")
+	)
+	(junction
+		(at 35.56 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56296000-a6ad-4cda-8d7a-315621c1cab2")
+	)
+	(junction
 		(at 181.61 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e06e314-975a-4a86-9da6-2ce7470b4d91")
-	)
-	(junction
-		(at 35.56 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ebbe27f-f42d-4a2b-a841-a3bc998b2bfb")
-	)
-	(junction
-		(at 35.56 232.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fb7a893-4e96-4444-b920-b14ac59e3f8a")
 	)
 	(junction
 		(at 35.56 149.86)
@@ -6426,12 +6426,6 @@
 		(uuid "70680fc8-4585-492f-ab5c-27311f90017e")
 	)
 	(junction
-		(at 35.56 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7239cbfe-b383-4144-9e7f-a1d92af19794")
-	)
-	(junction
 		(at 67.31 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6456,6 +6450,12 @@
 		(uuid "a70ec30d-d502-4cba-8810-2c536960dfd8")
 	)
 	(junction
+		(at 35.56 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a850562d-8ffa-4277-9004-933f502c42fb")
+	)
+	(junction
 		(at 86.36 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6468,10 +6468,16 @@
 		(uuid "b36d0937-4754-4796-8a64-14933a2b9b4f")
 	)
 	(junction
-		(at 35.56 224.79)
+		(at 35.56 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b91dcbbc-c81d-4f06-a535-72a533cba485")
+		(uuid "b5be90da-bd9c-4956-af96-465e2ce380fb")
+	)
+	(junction
+		(at 35.56 262.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0469166-550f-4758-83dd-2572622fda45")
 	)
 	(junction
 		(at 192.786 163.83)
@@ -6480,28 +6486,16 @@
 		(uuid "c0f33f28-b371-4bbe-be9b-346b4e700611")
 	)
 	(junction
-		(at 35.56 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c13bb711-910e-4f13-970c-f48e0353b52f")
-	)
-	(junction
-		(at 35.56 255.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d017b003-b29e-4a49-87cf-ee5da44e442e")
-	)
-	(junction
 		(at 162.56 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc050521-9d4f-4aa2-b9f9-b39618bdb491")
 	)
 	(junction
-		(at 35.56 142.24)
+		(at 35.56 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5dbe59c-4168-44fd-bcd4-f2f7d5f9ba5c")
+		(uuid "e63b578b-35a6-4d90-a9f5-52f56dc5b050")
 	)
 	(junction
 		(at 290.83 97.79)
@@ -6514,6 +6508,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4b46a0d-8e17-4f98-90b5-a1c85927762e")
+	)
+	(junction
+		(at 35.56 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5673e2a-2284-4be6-b9ac-0757bc8671f4")
 	)
 	(junction
 		(at 35.56 187.96)
@@ -6667,6 +6667,26 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 217.17) (xy 54.61 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ade58eb-5d02-4058-b0f4-19498e0ee7bd")
+	)
+	(wire
+		(pts
+			(xy 43.18 247.65) (xy 54.61 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc35ca3-f878-402c-8b5c-1198337e0a54")
+	)
+	(wire
+		(pts
 			(xy 104.14 63.5) (xy 107.95 63.5)
 		)
 		(stroke
@@ -6737,16 +6757,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 134.62) (xy 35.56 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "189b7641-a431-45fe-a918-fdf8bc7e1ec0")
-	)
-	(wire
-		(pts
 			(xy 212.09 92.71) (xy 212.09 111.76)
 		)
 		(stroke
@@ -6787,6 +6797,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 224.79) (xy 35.56 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2422d4dd-776a-4489-b401-521c16c9e2d7")
+	)
+	(wire
+		(pts
 			(xy 104.14 86.36) (xy 106.68 86.36)
 		)
 		(stroke
@@ -6797,13 +6817,33 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 180.34) (xy 35.56 172.72)
+			(xy 52.07 240.03) (xy 54.61 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252f2284-ce95-4c20-8e30-44657b7a0755")
+	)
+	(wire
+		(pts
+			(xy 35.56 165.1) (xy 35.56 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "270add96-6a9d-4651-9edc-e4eeaeb136a9")
+	)
+	(wire
+		(pts
+			(xy 35.56 232.41) (xy 35.56 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba33eec-b438-4463-8c3a-466046fec95d")
 	)
 	(wire
 		(pts
@@ -6837,16 +6877,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 240.03) (xy 35.56 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30d858b4-ef1b-4330-bd9a-9477846432a0")
-	)
-	(wire
-		(pts
 			(xy 182.88 54.61) (xy 182.88 57.15)
 		)
 		(stroke
@@ -6857,23 +6887,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 165.1) (xy 35.56 172.72)
+			(xy 36.83 262.89) (xy 35.56 262.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32bfde99-24dc-46f2-8b48-7cc52fbecf5e")
-	)
-	(wire
-		(pts
-			(xy 44.45 209.55) (xy 35.56 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34121ec8-382f-4b37-a8a3-fa7ca8baab87")
+		(uuid "3402c937-2b6e-451f-a0dd-59524e9e2dc2")
 	)
 	(wire
 		(pts
@@ -6907,33 +6927,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 255.27) (xy 54.61 255.27)
+			(xy 35.56 262.89) (xy 35.56 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3817a8bb-cb39-41af-a6c5-a35e5c6d09ad")
-	)
-	(wire
-		(pts
-			(xy 35.56 240.03) (xy 35.56 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a2e9b58-cbe8-482c-a9d3-acd098d3e7f5")
-	)
-	(wire
-		(pts
-			(xy 44.45 224.79) (xy 35.56 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac7135d-6d8b-4872-9641-37918e6d8307")
+		(uuid "396f14de-e5ef-4ef6-9c51-f2c2cc648283")
 	)
 	(wire
 		(pts
@@ -7097,16 +7097,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 247.65) (xy 54.61 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "490daef8-b0a6-4590-beb9-6e963b742822")
-	)
-	(wire
-		(pts
 			(xy 44.45 157.48) (xy 54.61 157.48)
 		)
 		(stroke
@@ -7177,6 +7167,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 247.65) (xy 35.56 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bd002a-688f-4097-83fb-cd42179c918b")
+	)
+	(wire
+		(pts
 			(xy 55.88 35.56) (xy 67.31 35.56)
 		)
 		(stroke
@@ -7187,7 +7187,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 149.86) (xy 35.56 142.24)
+			(xy 35.56 134.62) (xy 35.56 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7234,6 +7234,16 @@
 			(type default)
 		)
 		(uuid "5bb85b7b-0a1c-425d-a6ec-14ccdf32942f")
+	)
+	(wire
+		(pts
+			(xy 36.83 232.41) (xy 35.56 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be869fa-5f69-48e4-9b79-cb0892d9bc88")
 	)
 	(wire
 		(pts
@@ -7287,13 +7297,33 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 209.55) (xy 54.61 209.55)
+			(xy 44.45 232.41) (xy 54.61 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61b72ac8-8f5b-43d3-a362-f2664b4c72ff")
+		(uuid "5f46eff9-88c2-4aaa-94c3-a88f22209e98")
+	)
+	(wire
+		(pts
+			(xy 35.56 240.03) (xy 35.56 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc329de-91cf-44df-adf1-75ed41d05b16")
+	)
+	(wire
+		(pts
+			(xy 44.45 240.03) (xy 35.56 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6162c8d0-dbd2-479e-8c7a-b8099649039b")
 	)
 	(wire
 		(pts
@@ -7447,16 +7477,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 232.41) (xy 54.61 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73204221-d291-4c53-ae71-7d6faf11a7d0")
-	)
-	(wire
-		(pts
 			(xy 43.18 142.24) (xy 54.61 142.24)
 		)
 		(stroke
@@ -7547,16 +7567,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 232.41) (xy 35.56 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca8eb15-43a2-4a32-bc34-55e7ebee0161")
-	)
-	(wire
-		(pts
 			(xy 41.91 59.69) (xy 41.91 60.96)
 		)
 		(stroke
@@ -7624,6 +7634,16 @@
 			(type default)
 		)
 		(uuid "81097e78-f6a2-4cd6-87ae-2ceb66abd29d")
+	)
+	(wire
+		(pts
+			(xy 35.56 209.55) (xy 35.56 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810b3b0e-6ece-4bfe-b5c4-4884423dfa41")
 	)
 	(wire
 		(pts
@@ -7777,33 +7797,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 262.89) (xy 54.61 262.89)
+			(xy 35.56 142.24) (xy 35.56 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "913c49dd-d7ee-45e5-a8e6-f5b62702ac3c")
-	)
-	(wire
-		(pts
-			(xy 35.56 262.89) (xy 35.56 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92ee79c5-3963-4ecf-873d-f84bcbc6d7b5")
-	)
-	(wire
-		(pts
-			(xy 35.56 232.41) (xy 35.56 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "939df693-d5ba-4a4e-b01a-99063a15c8dd")
+		(uuid "911601c5-ad1f-4545-a018-84b8aef80215")
 	)
 	(wire
 		(pts
@@ -7827,23 +7827,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 217.17) (xy 54.61 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "983796e9-c577-4e9e-8797-005b0eb39d04")
-	)
-	(wire
-		(pts
 			(xy 44.45 255.27) (xy 35.56 255.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9883ad3c-54e3-494e-a358-302ca6406b10")
+		(uuid "95cf1726-0b47-44ea-9419-855770409f7a")
 	)
 	(wire
 		(pts
@@ -7877,16 +7867,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 262.89) (xy 35.56 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b871c3e-621b-44fe-bf29-8cc5c5f1a6df")
-	)
-	(wire
-		(pts
 			(xy 232.41 92.71) (xy 242.57 92.71)
 		)
 		(stroke
@@ -7917,6 +7897,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 262.89) (xy 35.56 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ae136a-22af-4e23-b678-19608e92f544")
+	)
+	(wire
+		(pts
 			(xy 69.85 149.86) (xy 73.66 149.86)
 		)
 		(stroke
@@ -7944,16 +7934,6 @@
 			(type default)
 		)
 		(uuid "a2d9a28e-63a2-4d51-bc01-9f7e8d016a73")
-	)
-	(wire
-		(pts
-			(xy 52.07 240.03) (xy 54.61 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e36ec9-4d72-4ccd-a3a5-cccfc1d37856")
 	)
 	(wire
 		(pts
@@ -8024,16 +8004,6 @@
 			(type default)
 		)
 		(uuid "a61c0259-2e1c-4fc8-ae22-294b88db3263")
-	)
-	(wire
-		(pts
-			(xy 35.56 224.79) (xy 35.56 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a62318e0-5ec8-40b8-9e0e-d186352e0320")
 	)
 	(wire
 		(pts
@@ -8177,16 +8147,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 262.89) (xy 35.56 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b347958f-a709-4cb1-953f-87138418550e")
-	)
-	(wire
-		(pts
 			(xy 100.33 177.8) (xy 100.33 179.07)
 		)
 		(stroke
@@ -8197,6 +8157,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 255.27) (xy 54.61 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f13c73-965c-4ee8-b3cf-3e11bb374fe2")
+	)
+	(wire
+		(pts
 			(xy 121.92 60.96) (xy 121.92 62.23)
 		)
 		(stroke
@@ -8204,6 +8174,16 @@
 			(type default)
 		)
 		(uuid "b89a9bd5-e6e7-4893-a996-f45f781bb90e")
+	)
+	(wire
+		(pts
+			(xy 44.45 262.89) (xy 54.61 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ee4bf3-4731-43d6-bd56-0fd2e85a9921")
 	)
 	(wire
 		(pts
@@ -8297,36 +8277,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 224.79) (xy 54.61 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb3ca81-978b-4c54-bca2-50b35b20e7ce")
-	)
-	(wire
-		(pts
-			(xy 35.56 255.27) (xy 35.56 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be3c3807-fff3-46c1-ada2-1ec7ec34f25a")
-	)
-	(wire
-		(pts
-			(xy 44.45 240.03) (xy 35.56 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c03ec359-a30e-4117-84c3-75ea88ed8065")
-	)
-	(wire
-		(pts
 			(xy 104.14 66.04) (xy 107.95 66.04)
 		)
 		(stroke
@@ -8384,6 +8334,16 @@
 			(type default)
 		)
 		(uuid "c2cfbbb0-2885-4822-8e1e-40e8ecfa6020")
+	)
+	(wire
+		(pts
+			(xy 52.07 224.79) (xy 54.61 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43dbf68-c698-4fbf-b488-9c2ecb6ada34")
 	)
 	(wire
 		(pts
@@ -8477,6 +8437,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 240.03) (xy 35.56 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf097178-dc8d-4c0f-ad72-a58046e664fb")
+	)
+	(wire
+		(pts
 			(xy 213.36 171.45) (xy 213.36 173.99)
 		)
 		(stroke
@@ -8514,6 +8484,16 @@
 			(type default)
 		)
 		(uuid "d1f7f503-82a7-4c14-9eff-1f56a060cd02")
+	)
+	(wire
+		(pts
+			(xy 52.07 209.55) (xy 54.61 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cd2ab6-f442-43ac-b5e8-7bc631b62345")
 	)
 	(wire
 		(pts
@@ -8717,16 +8697,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 209.55) (xy 35.56 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e16f46-c8ad-4378-96f5-2699d7501d8e")
-	)
-	(wire
-		(pts
 			(xy 191.77 177.8) (xy 192.786 177.8)
 		)
 		(stroke
@@ -8827,6 +8797,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 209.55) (xy 35.56 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21e3b14-0213-48d0-9553-2165b2cfce7d")
+	)
+	(wire
+		(pts
+			(xy 35.56 217.17) (xy 35.56 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62a8593-f0e2-42c8-bdbf-21b83e2ccc55")
+	)
+	(wire
+		(pts
 			(xy 74.93 217.17) (xy 74.93 222.25)
 		)
 		(stroke
@@ -8894,6 +8884,16 @@
 			(type default)
 		)
 		(uuid "fcee9bee-cdee-41f3-a5e5-d0e23cc3348c")
+	)
+	(wire
+		(pts
+			(xy 35.56 172.72) (xy 35.56 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7ed42b-3936-4c22-9a0b-43736072ee24")
 	)
 	(wire
 		(pts
@@ -9580,104 +9580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 40.64 232.41 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08da7e7b-284d-4df1-bf95-7fb7557355fd")
-		(property "Reference" "RN3"
-			(at 40.64 226.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 40.64 228.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 40.64 234.442 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 40.64 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 40.64 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b8477")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd698f")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc6e")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a0d")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e655c")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4df")
-		)
-		(pin "7"
-			(uuid "3093cd60-bd00-483f-8a6a-7b512485e051")
-		)
-		(pin "8"
-			(uuid "b547f40e-ee3a-4ee5-93d1-539e59d78741")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN3")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 158.75 182.88 0)
 		(unit 1)
@@ -9804,6 +9706,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 40.64 232.41 90)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b0f4561-264d-46fe-8042-34ec7101dc1a")
+		(property "Reference" "RN6"
+			(at 40.64 226.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 40.64 228.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 40.64 234.442 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 40.64 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392090")
+		)
+		(pin "8"
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa7")
+		)
+		(pin "1"
+			(uuid "0a0b88ae-3159-4259-b89b-937625f0710d")
+		)
+		(pin "2"
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d3e")
+		)
+		(pin "3"
+			(uuid "85147861-599e-444c-b5ba-42f4078a08cd")
+		)
+		(pin "6"
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f38")
+		)
+		(pin "4"
+			(uuid "795b8fa5-dd03-441b-ae0c-570b58299771")
+		)
+		(pin "5"
+			(uuid "91def1d6-34ad-4ce8-8d6e-48cfb2bd8ab2")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "RN6")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 218.44 52.07 90)
 		(unit 1)
@@ -9884,9 +9884,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 39.37 217.17 90)
-		(unit 2)
+		(lib_id "Device:R_Pack04_Split")
+		(at 48.26 240.03 90)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9894,9 +9894,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "128f38e8-edea-4bfe-b0fd-81778787d86e")
-		(property "Reference" "RN3"
-			(at 39.37 210.82 90)
+		(uuid "0c249a53-6fcb-4804-a38f-6a452dad8d7f")
+		(property "Reference" "RN2"
+			(at 48.26 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9906,7 +9906,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 39.37 213.36 90)
+			(at 48.26 236.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9915,8 +9915,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 39.37 219.202 90)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 48.26 242.062 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9926,8 +9926,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 39.37 217.17 0)
+		(property "Datasheet" ""
+			(at 48.26 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9937,8 +9937,8 @@
 				)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 39.37 217.17 0)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 48.26 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9947,36 +9947,134 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b847b")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd6993")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc72")
-		)
-		(pin "4"
-			(uuid "7710dd00-2ea7-4e5a-bafc-39542f116201")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e6560")
-		)
-		(pin "3"
-			(uuid "7a8010bf-19bc-4659-8da4-1936b110141b")
-		)
-		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c012770b")
 		)
 		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c592")
+			(uuid "55d334b5-6b1b-4a0c-a351-da84f84a1613")
+		)
+		(pin "1"
+			(uuid "43131b4a-c7ec-4bbf-b144-36dd08caf1da")
+		)
+		(pin "2"
+			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c9")
+		)
+		(pin "7"
+			(uuid "14a76fd4-7832-4264-9a08-87b4be171591")
+		)
+		(pin "3"
+			(uuid "8a630727-4a2d-470b-8875-1de139b8d02e")
+		)
+		(pin "6"
+			(uuid "3f18d5f1-419b-436b-a024-1d7559d71173")
+		)
+		(pin "4"
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9e")
+		)
+		(pin "5"
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552eab")
 		)
 		(instances
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN3")
-					(unit 2)
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 48.26 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17fb4355-65d1-45f4-a452-05c2d4520c8e")
+		(property "Reference" "RN5"
+			(at 48.26 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 48.26 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 48.26 136.652 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 48.26 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392090")
+		)
+		(pin "8"
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa7")
+		)
+		(pin "1"
+			(uuid "0a0b88ae-3159-4259-b89b-937625f0710d")
+		)
+		(pin "2"
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d3e")
+		)
+		(pin "3"
+			(uuid "85147861-599e-444c-b5ba-42f4078a08cd")
+		)
+		(pin "6"
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f38")
+		)
+		(pin "4"
+			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9ced")
+		)
+		(pin "5"
+			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c3")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "RN5")
+					(unit 1)
 				)
 			)
 		)
@@ -10187,6 +10285,104 @@
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
 					(reference "Q4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 39.37 172.72 90)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "191d8a1d-3ba4-4936-8a42-534c17559e49")
+		(property "Reference" "RN1"
+			(at 39.37 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 39.37 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 39.37 174.752 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 39.37 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d250")
+		)
+		(pin "1"
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c6711279")
+		)
+		(pin "2"
+			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c6")
+		)
+		(pin "7"
+			(uuid "14a76fd4-7832-4264-9a08-87b4be17158e")
+		)
+		(pin "3"
+			(uuid "8a630727-4a2d-470b-8875-1de139b8d02b")
+		)
+		(pin "6"
+			(uuid "3f18d5f1-419b-436b-a024-1d7559d71170")
+		)
+		(pin "4"
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9b")
+		)
+		(pin "5"
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea8")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "RN1")
+					(unit 2)
 				)
 			)
 		)
@@ -10479,8 +10675,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 48.26 209.55 90)
+		(lib_id "power:GND")
+		(at 35.56 266.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10489,9 +10685,88 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1ed1fb04-aece-4c05-880a-0e4d748069b0")
-		(property "Reference" "RN3"
-			(at 48.26 203.2 90)
+		(uuid "1e56e24f-e14d-4f37-afa3-2d5da35c7971")
+		(property "Reference" "#PWR069"
+			(at 35.56 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63eca5b5-7d83-4be1-ad14-c8d6a24e3a72")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 40.64 262.89 90)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e63de09-01e4-4add-a288-df4ea4e742a3")
+		(property "Reference" "RN2"
+			(at 40.64 256.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10501,7 +10776,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 48.26 205.74 90)
+			(at 40.64 259.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10510,8 +10785,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 48.26 211.582 90)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 40.64 264.922 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10521,8 +10796,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 48.26 209.55 0)
+		(property "Datasheet" ""
+			(at 40.64 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10532,8 +10807,8 @@
 				)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 48.26 209.55 0)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 40.64 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10542,36 +10817,36 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b8476")
-		)
-		(pin "1"
-			(uuid "973ef2a1-70bd-454c-91ee-51ffff39438c")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc6d")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a0c")
-		)
-		(pin "2"
-			(uuid "31a02676-1864-4e04-a0a1-85d70104cfb0")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4de")
-		)
-		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c0127706")
 		)
 		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c58d")
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d252")
+		)
+		(pin "1"
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c671127b")
+		)
+		(pin "2"
+			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c8")
+		)
+		(pin "7"
+			(uuid "14a76fd4-7832-4264-9a08-87b4be171590")
+		)
+		(pin "3"
+			(uuid "8a630727-4a2d-470b-8875-1de139b8d02d")
+		)
+		(pin "6"
+			(uuid "3f18d5f1-419b-436b-a024-1d7559d71172")
+		)
+		(pin "4"
+			(uuid "cd60b194-eda0-4de5-9ab4-3c411f7286e5")
+		)
+		(pin "5"
+			(uuid "0095efa5-b2eb-4a71-86e9-15db5ed01398")
 		)
 		(instances
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN3")
-					(unit 1)
+					(reference "RN2")
+					(unit 4)
 				)
 			)
 		)
@@ -10983,9 +11258,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 40.64 262.89 90)
-		(unit 4)
+		(lib_id "Device:R_Pack04_Split")
+		(at 48.26 165.1 90)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10993,9 +11268,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "26f2b800-d89c-4e40-9cdb-5a2d5c7e56b6")
-		(property "Reference" "RN4"
-			(at 40.64 256.54 90)
+		(uuid "28d34e33-7678-4a7a-a29d-c766a5545ed3")
+		(property "Reference" "RN1"
+			(at 48.26 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11005,7 +11280,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 40.64 259.08 90)
+			(at 48.26 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11014,8 +11289,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 40.64 264.922 90)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 48.26 167.132 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11025,8 +11300,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 40.64 262.89 0)
+		(property "Datasheet" ""
+			(at 48.26 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11036,8 +11311,8 @@
 				)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 40.64 262.89 0)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 48.26 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11046,36 +11321,36 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b8479")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd6990")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc70")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a10")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e655d")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4e2")
-		)
-		(pin "7"
-			(uuid "f8afb62d-1fd5-4b3d-9d7e-1910b8b37904")
 		)
 		(pin "8"
-			(uuid "610190d9-fec5-4dfe-88b0-febefc35c8e1")
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d250")
+		)
+		(pin "1"
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c6711279")
+		)
+		(pin "2"
+			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c6")
+		)
+		(pin "7"
+			(uuid "14a76fd4-7832-4264-9a08-87b4be17158e")
+		)
+		(pin "3"
+			(uuid "8a630727-4a2d-470b-8875-1de139b8d02b")
+		)
+		(pin "6"
+			(uuid "3f18d5f1-419b-436b-a024-1d7559d71170")
+		)
+		(pin "4"
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9b")
+		)
+		(pin "5"
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea8")
 		)
 		(instances
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN4")
-					(unit 4)
+					(reference "RN1")
+					(unit 1)
 				)
 			)
 		)
@@ -12201,104 +12476,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 48.26 224.79 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "430910c5-c28c-40b7-b429-cf72b98ae130")
-		(property "Reference" "RN3"
-			(at 48.26 218.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 48.26 220.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 48.26 226.822 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 48.26 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 48.26 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "36e1d141-6ac3-43a0-8de4-a376b66ac93f")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd6994")
-		)
-		(pin "5"
-			(uuid "8489856a-7e0b-435e-9a86-8af4446e3159")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a12")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e6561")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4e4")
-		)
-		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c012770c")
-		)
-		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c593")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 232.41 99.06 0)
 		(unit 1)
@@ -12619,8 +12796,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 39.37 142.24 90)
+		(lib_id "Device:R_Pack04_Split")
+		(at 39.37 217.17 90)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12629,9 +12806,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f2539f7-e1e5-4f1d-b0fa-aba3c037d9e9")
-		(property "Reference" "RN1"
-			(at 39.37 135.89 90)
+		(uuid "4be9e254-62ec-4958-96f9-cf12cc2e980c")
+		(property "Reference" "RN6"
+			(at 39.37 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12641,7 +12818,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 39.37 138.43 90)
+			(at 39.37 213.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12650,8 +12827,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 39.37 144.272 90)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 39.37 219.202 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12661,8 +12838,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 39.37 142.24 0)
+		(property "Datasheet" ""
+			(at 39.37 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12672,8 +12849,8 @@
 				)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 39.37 142.24 0)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 39.37 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12682,134 +12859,36 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b8478")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd698e")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc6f")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a0e")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e655b")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4e0")
 		)
 		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c0127707")
+			(uuid "47b1f324-2c4f-476e-834f-9d5f43451e14")
 		)
 		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c58e")
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa8")
+		)
+		(pin "1"
+			(uuid "0a0b88ae-3159-4259-b89b-937625f0710e")
+		)
+		(pin "2"
+			(uuid "218a9720-a0a1-49d1-8e73-d5eabcfbdc67")
+		)
+		(pin "3"
+			(uuid "85147861-599e-444c-b5ba-42f4078a08ce")
+		)
+		(pin "6"
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f39")
+		)
+		(pin "4"
+			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9cee")
+		)
+		(pin "5"
+			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c4")
 		)
 		(instances
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN1")
+					(reference "RN6")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 48.26 180.34 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f77ff9f-54af-4d7b-8b84-6afe5626e69b")
-		(property "Reference" "RN2"
-			(at 48.26 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 48.26 176.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 48.26 182.372 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 48.26 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 48.26 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "e6969059-460e-4a4e-bb84-5c1a6ee5e651")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd6991")
-		)
-		(pin "5"
-			(uuid "41e73825-60ad-43fb-ab28-fc1afe173166")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a0f")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e655e")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4e1")
-		)
-		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c0127709")
-		)
-		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c590")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN2")
-					(unit 3)
 				)
 			)
 		)
@@ -13663,202 +13742,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 48.26 255.27 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69b8bcdf-4877-4698-8127-0eff6dfebf34")
-		(property "Reference" "RN4"
-			(at 48.26 248.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 48.26 251.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 48.26 257.302 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 48.26 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 48.26 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "dd50749f-c0aa-4186-a837-84618f513618")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd6992")
-		)
-		(pin "5"
-			(uuid "b8605a28-c163-402b-a817-69d150bb480f")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a11")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e655f")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4e3")
-		)
-		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c012770a")
-		)
-		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c591")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN4")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 40.64 157.48 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ad98ea1-b11d-46ac-a451-20359112b556")
-		(property "Reference" "RN1"
-			(at 40.64 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 40.64 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 40.64 159.512 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 40.64 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 40.64 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b847a")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd6995")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc71")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a13")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e6562")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4e5")
-		)
-		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c0127708")
-		)
-		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c58f")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN1")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 67.31 39.37 0)
 		(unit 1)
@@ -13935,6 +13818,104 @@
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 48.26 209.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c67e922-7853-4097-83f9-89c4592f1c37")
+		(property "Reference" "RN6"
+			(at 48.26 203.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 48.26 205.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 48.26 211.582 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 48.26 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392093")
+		)
+		(pin "8"
+			(uuid "8e6d0ef8-6414-4471-93b5-5406ecf204fa")
+		)
+		(pin "1"
+			(uuid "30f77994-d750-46d2-9d62-7ee48a21e1b9")
+		)
+		(pin "2"
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d41")
+		)
+		(pin "3"
+			(uuid "85147861-599e-444c-b5ba-42f4078a08d0")
+		)
+		(pin "6"
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f3b")
+		)
+		(pin "4"
+			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9cf0")
+		)
+		(pin "5"
+			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c6")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "RN6")
 					(unit 1)
 				)
 			)
@@ -14573,6 +14554,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 48.26 255.27 90)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "817185f6-66fe-499d-a53d-cd3edd736ccb")
+		(property "Reference" "RN2"
+			(at 48.26 248.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 48.26 251.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 48.26 257.302 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 48.26 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d251")
+		)
+		(pin "1"
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c671127a")
+		)
+		(pin "2"
+			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c7")
+		)
+		(pin "7"
+			(uuid "14a76fd4-7832-4264-9a08-87b4be17158f")
+		)
+		(pin "3"
+			(uuid "671543ce-b51d-442c-a98c-74f2e2322a83")
+		)
+		(pin "6"
+			(uuid "ebc8dfd6-77d7-48ab-8306-91c3f8a427e3")
+		)
+		(pin "4"
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9c")
+		)
+		(pin "5"
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea9")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "RN2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 294.64 97.79 90)
 		(unit 1)
@@ -14732,9 +14811,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 39.37 247.65 90)
-		(unit 2)
+		(lib_id "Device:R_Pack04_Split")
+		(at 48.26 149.86 90)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14742,9 +14821,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ce8c0b9-5522-4678-a7e4-babe9ead1833")
-		(property "Reference" "RN4"
-			(at 39.37 241.3 90)
+		(uuid "88c24047-d61b-4aba-94c3-72fd33577390")
+		(property "Reference" "RN5"
+			(at 48.26 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14754,7 +14833,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 39.37 243.84 90)
+			(at 48.26 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14763,8 +14842,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 39.37 249.682 90)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 48.26 151.892 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14774,8 +14853,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 39.37 247.65 0)
+		(property "Datasheet" ""
+			(at 48.26 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14785,8 +14864,8 @@
 				)
 			)
 		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 39.37 247.65 0)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 48.26 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14795,36 +14874,36 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b847c")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd6996")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc73")
-		)
-		(pin "4"
-			(uuid "20e030d3-5f59-44af-9c83-20fefaefbb1d")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e6563")
-		)
-		(pin "3"
-			(uuid "623c6192-d162-4081-89de-497eede70280")
 		)
 		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c012770d")
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392090")
 		)
 		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c594")
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa7")
+		)
+		(pin "1"
+			(uuid "0a0b88ae-3159-4259-b89b-937625f0710d")
+		)
+		(pin "2"
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d3e")
+		)
+		(pin "3"
+			(uuid "85147861-599e-444c-b5ba-42f4078a08cd")
+		)
+		(pin "6"
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f38")
+		)
+		(pin "4"
+			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9ced")
+		)
+		(pin "5"
+			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c3")
 		)
 		(instances
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN4")
-					(unit 2)
+					(reference "RN5")
+					(unit 3)
 				)
 			)
 		)
@@ -15068,104 +15147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 48.26 240.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94d04fb0-6a73-4e9e-a63a-240db0961e03")
-		(property "Reference" "RN4"
-			(at 48.26 233.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 48.26 236.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 48.26 242.062 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 48.26 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 48.26 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b847d")
-		)
-		(pin "1"
-			(uuid "6f1f3a45-1267-46b1-8daf-64b7e61253a3")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc74")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a14")
-		)
-		(pin "2"
-			(uuid "1f9575f3-d70b-450f-b230-255b9d758ff8")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4e6")
-		)
-		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c012770e")
-		)
-		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c595")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 41.91 64.77 90)
 		(unit 1)
@@ -15287,6 +15268,104 @@
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
 					(reference "D11")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 48.26 224.79 90)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "996ef07b-a9a7-4581-b793-eab916beea38")
+		(property "Reference" "RN6"
+			(at 48.26 218.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 48.26 220.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 48.26 226.822 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 48.26 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392092")
+		)
+		(pin "8"
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa9")
+		)
+		(pin "1"
+			(uuid "0a0b88ae-3159-4259-b89b-937625f0710f")
+		)
+		(pin "2"
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d40")
+		)
+		(pin "3"
+			(uuid "b94f6ed0-37d8-4f62-b51c-68357278da91")
+		)
+		(pin "6"
+			(uuid "1781a95e-a109-406a-ab96-56a4a9ff3156")
+		)
+		(pin "4"
+			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9cef")
+		)
+		(pin "5"
+			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c5")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "RN6")
+					(unit 3)
 				)
 			)
 		)
@@ -15924,202 +16003,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 40.64 187.96 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acd15758-6c90-46b1-bece-45d5c9e6dd65")
-		(property "Reference" "RN2"
-			(at 40.64 181.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 40.64 184.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 40.64 189.992 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 40.64 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 40.64 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b847e")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd6997")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc75")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a15")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e6564")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4e7")
-		)
-		(pin "7"
-			(uuid "982ff120-489a-402d-a1cb-d365ab68fc28")
-		)
-		(pin "8"
-			(uuid "651bd019-8b26-431e-9f22-54f73b66815c")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN2")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 39.37 172.72 90)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae2095cb-7c3e-4945-b5f7-67adef765d51")
-		(property "Reference" "RN2"
-			(at 39.37 166.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 39.37 168.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 39.37 174.752 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 39.37 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 39.37 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b847f")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd6998")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc76")
-		)
-		(pin "4"
-			(uuid "95980451-611a-4ea7-9da9-bc05e8585c49")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e6565")
-		)
-		(pin "3"
-			(uuid "0968b716-cbe8-430a-ac43-b0e4ee8309e7")
-		)
-		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c012770f")
-		)
-		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c596")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 91.44 34.29 0)
 		(unit 1)
@@ -16193,6 +16076,202 @@
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
 					(reference "#PWR050")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 39.37 142.24 90)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b032bdd8-9455-48da-aece-d9ab1b2a06a0")
+		(property "Reference" "RN5"
+			(at 39.37 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 39.37 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 39.37 144.272 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 39.37 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392090")
+		)
+		(pin "8"
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa7")
+		)
+		(pin "1"
+			(uuid "0a0b88ae-3159-4259-b89b-937625f0710d")
+		)
+		(pin "2"
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d3e")
+		)
+		(pin "3"
+			(uuid "85147861-599e-444c-b5ba-42f4078a08cd")
+		)
+		(pin "6"
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f38")
+		)
+		(pin "4"
+			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9ced")
+		)
+		(pin "5"
+			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c3")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "RN5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 40.64 157.48 90)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b11580c3-427f-4d5c-8e96-f69f10d96684")
+		(property "Reference" "RN5"
+			(at 40.64 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 40.64 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 40.64 159.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 40.64 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392090")
+		)
+		(pin "8"
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa7")
+		)
+		(pin "1"
+			(uuid "0a0b88ae-3159-4259-b89b-937625f0710d")
+		)
+		(pin "2"
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d3e")
+		)
+		(pin "3"
+			(uuid "85147861-599e-444c-b5ba-42f4078a08cd")
+		)
+		(pin "6"
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f38")
+		)
+		(pin "4"
+			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9ced")
+		)
+		(pin "5"
+			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c3")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "RN5")
+					(unit 4)
 				)
 			)
 		)
@@ -16684,104 +16763,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 48.26 165.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc7975d0-d744-4b92-82f0-030fa21e6786")
-		(property "Reference" "RN2"
-			(at 48.26 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 48.26 161.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 48.26 167.132 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 48.26 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 48.26 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b8480")
-		)
-		(pin "1"
-			(uuid "6bde8779-461b-422d-b7f9-d4e24a60d1af")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc77")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a16")
-		)
-		(pin "2"
-			(uuid "ebde55c7-d958-49d5-9fd9-934671840113")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4e8")
-		)
-		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c0127710")
-		)
-		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c597")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 213.36 173.99 0)
@@ -17107,104 +17088,6 @@
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
 					(reference "R56")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 48.26 149.86 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c58e94be-f12a-417a-99d2-454c683ca453")
-		(property "Reference" "RN1"
-			(at 48.26 143.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 48.26 146.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 48.26 151.892 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 48.26 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 48.26 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b8481")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd6999")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc78")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a17")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e6566")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4e9")
-		)
-		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c0127711")
-		)
-		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c598")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN1")
-					(unit 3)
 				)
 			)
 		)
@@ -17539,6 +17422,104 @@
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
 					(reference "C23")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 40.64 187.96 90)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c78eddf6-9dbd-4e20-a495-de5fd4b004ec")
+		(property "Reference" "RN1"
+			(at 40.64 181.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 40.64 184.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 40.64 189.992 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 40.64 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d250")
+		)
+		(pin "1"
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c6711279")
+		)
+		(pin "2"
+			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c6")
+		)
+		(pin "7"
+			(uuid "14a76fd4-7832-4264-9a08-87b4be17158e")
+		)
+		(pin "3"
+			(uuid "8a630727-4a2d-470b-8875-1de139b8d02b")
+		)
+		(pin "6"
+			(uuid "3f18d5f1-419b-436b-a024-1d7559d71170")
+		)
+		(pin "4"
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9b")
+		)
+		(pin "5"
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea8")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "RN1")
+					(unit 4)
 				)
 			)
 		)
@@ -17994,6 +17975,104 @@
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
 					(reference "#PWR074")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 39.37 247.65 90)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdfff978-44e8-4c91-b01f-1968d46b1a38")
+		(property "Reference" "RN2"
+			(at 39.37 241.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 39.37 243.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 39.37 249.682 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 39.37 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d250")
+		)
+		(pin "1"
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c6711279")
+		)
+		(pin "2"
+			(uuid "1e47a90e-f5c0-491a-85cf-fedca40e2c98")
+		)
+		(pin "7"
+			(uuid "e3ab7830-dc09-4ff1-9d44-0f14f062c633")
+		)
+		(pin "3"
+			(uuid "8a630727-4a2d-470b-8875-1de139b8d02b")
+		)
+		(pin "6"
+			(uuid "3f18d5f1-419b-436b-a024-1d7559d71170")
+		)
+		(pin "4"
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9b")
+		)
+		(pin "5"
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea8")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "RN2")
+					(unit 2)
 				)
 			)
 		)
@@ -18880,104 +18959,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_SIP_Split")
-		(at 48.26 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4c0993d-c42c-4a52-b525-1a210732e4dd")
-		(property "Reference" "RN1"
-			(at 48.26 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 48.26 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP8"
-			(at 48.26 136.652 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 48.26 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, SIP package, split"
-			(at 48.26 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "78d8733f-1f34-4ba9-bc5a-49a85e2b8482")
-		)
-		(pin "1"
-			(uuid "0d9c5f03-0ed0-4b85-975e-312cbdbd699a")
-		)
-		(pin "5"
-			(uuid "994802a3-8c20-43c8-872d-bbc05db2cc79")
-		)
-		(pin "4"
-			(uuid "a460fd76-e9b6-4a38-b756-aaed2b3c4a18")
-		)
-		(pin "2"
-			(uuid "42294b42-1465-4a56-af73-0cc3765e6567")
-		)
-		(pin "3"
-			(uuid "99a599a4-580a-4407-acb7-73d8b9e9d4ea")
-		)
-		(pin "7"
-			(uuid "d4e59b15-84d4-4fda-a67d-a8b8c0127712")
-		)
-		(pin "8"
-			(uuid "5d2b6456-2c7e-4bb3-852c-c86cdb10c599")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "RN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 176.53 49.53 90)
 		(unit 1)
@@ -19052,85 +19033,6 @@
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
 					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 266.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9976ae1-2a97-488d-b9db-cb22878eff71")
-		(property "Reference" "#PWR069"
-			(at 35.56 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "766e71e9-7c3e-488a-b811-da92f3bad160")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -19214,6 +19116,104 @@
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
 					(reference "R45")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 48.26 180.34 90)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fef05567-b18b-43b0-9c96-7ffe3ae4037a")
+		(property "Reference" "RN1"
+			(at 48.26 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 48.26 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Cat16-4"
+			(at 48.26 182.372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 48.26 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d250")
+		)
+		(pin "1"
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c6711279")
+		)
+		(pin "2"
+			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c6")
+		)
+		(pin "7"
+			(uuid "14a76fd4-7832-4264-9a08-87b4be17158e")
+		)
+		(pin "3"
+			(uuid "8a630727-4a2d-470b-8875-1de139b8d02b")
+		)
+		(pin "6"
+			(uuid "3f18d5f1-419b-436b-a024-1d7559d71170")
+		)
+		(pin "4"
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9b")
+		)
+		(pin "5"
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea8")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/d60ebc28-189d-4249-afe6-e965ecbffaf8"
+					(reference "RN1")
+					(unit 3)
 				)
 			)
 		)
