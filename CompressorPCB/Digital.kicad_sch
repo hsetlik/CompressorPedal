@@ -6534,16 +6534,16 @@
 		(uuid "ff85f79d-6f7c-4c8a-b641-5e493cd50af1")
 	)
 	(no_connect
-		(at 104.14 78.74)
-		(uuid "12f7fe5b-a234-434d-bef5-24b6c172ddc1")
-	)
-	(no_connect
 		(at 104.14 81.28)
 		(uuid "25253d1d-cadd-4eab-9511-bbb495431cca")
 	)
 	(no_connect
 		(at 73.66 66.04)
 		(uuid "28c3336a-3c16-4bb7-94b6-9715a11756db")
+	)
+	(no_connect
+		(at 104.14 71.12)
+		(uuid "558d9b0f-beba-400d-9799-541160fe7037")
 	)
 	(no_connect
 		(at 191.77 156.21)
@@ -6574,16 +6574,16 @@
 		(uuid "8a4181e4-4d2b-4eaf-b21c-b7fc5f48f958")
 	)
 	(no_connect
-		(at 73.66 83.82)
-		(uuid "8fec8246-4862-4031-ac43-a20e0e8b8706")
-	)
-	(no_connect
 		(at 73.66 86.36)
 		(uuid "940d1a1c-69ba-4850-9fb3-210b7e1f4883")
 	)
 	(no_connect
-		(at 104.14 91.44)
-		(uuid "d685a371-8731-4971-b90d-de3c6e6a493a")
+		(at 104.14 63.5)
+		(uuid "9b3d9c54-694d-4860-ae7e-b98eb37bb477")
+	)
+	(no_connect
+		(at 73.66 71.12)
+		(uuid "d0533b50-a7c5-4412-9f4c-e0cf09d151d6")
 	)
 	(no_connect
 		(at 104.14 76.2)
@@ -6594,12 +6594,12 @@
 		(uuid "e35fc951-4c69-4316-ab3b-c304461686c2")
 	)
 	(no_connect
-		(at 73.66 81.28)
-		(uuid "e4c88de0-ef87-4c6a-9f7f-bdd824753de8")
-	)
-	(no_connect
 		(at 104.14 60.96)
 		(uuid "eedfd97f-b962-471d-9f05-6ca3c50ab348")
+	)
+	(no_connect
+		(at 104.14 66.04)
+		(uuid "f6ad4035-9a05-4e24-ab09-36ebd1b7b1b4")
 	)
 	(no_connect
 		(at 80.01 242.57)
@@ -6687,16 +6687,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 63.5) (xy 107.95 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc4cb2b-8cd8-4334-8b81-9f9dc97d8a68")
-	)
-	(wire
-		(pts
 			(xy 181.61 105.41) (xy 181.61 111.76)
 		)
 		(stroke
@@ -6747,13 +6737,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 71.12) (xy 107.95 71.12)
+			(xy 67.818 83.82) (xy 73.66 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14ade3e4-964f-4437-89e6-bd35ad8a2462")
+		(uuid "17152e90-b82a-4cfc-b83c-35f265482b2c")
 	)
 	(wire
 		(pts
@@ -6784,6 +6774,16 @@
 			(type default)
 		)
 		(uuid "1d6ce41a-e283-4a99-b9f8-bb5436117cd1")
+	)
+	(wire
+		(pts
+			(xy 67.564 81.28) (xy 73.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20208100-44ba-431f-8257-f548446413c5")
 	)
 	(wire
 		(pts
@@ -6924,6 +6924,16 @@
 			(type default)
 		)
 		(uuid "37d2e2ec-470e-4359-9560-4a82127e2086")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 115.316 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385f2e41-d5b5-4c48-983d-2db1b7188c2e")
 	)
 	(wire
 		(pts
@@ -7087,13 +7097,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 76.2) (xy 73.66 76.2)
+			(xy 55.372 106.68) (xy 128.27 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48e3a704-8fa7-4ab7-9383-4c4b3206f958")
+		(uuid "499f33e8-4949-45b9-b69b-05294c409dee")
+	)
+	(wire
+		(pts
+			(xy 68.58 76.2) (xy 73.66 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a17c13c-d531-4e5e-8d80-7d4333a9c005")
 	)
 	(wire
 		(pts
@@ -7107,7 +7127,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 68.58) (xy 162.56 68.58)
+			(xy 152.146 68.58) (xy 162.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7537,6 +7557,26 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 76.2) (xy 55.372 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789512cc-fbaf-4257-a854-0fbb6c38475d")
+	)
+	(wire
+		(pts
+			(xy 55.372 76.2) (xy 55.372 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b0db7d-83a5-4fdb-a3f8-b6924adc154b")
+	)
+	(wire
+		(pts
 			(xy 106.68 219.71) (xy 106.68 195.58)
 		)
 		(stroke
@@ -7767,6 +7807,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 78.74) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7f117b-e176-41e0-ab41-876027f7de7f")
+	)
+	(wire
+		(pts
 			(xy 100.33 170.18) (xy 118.11 170.18)
 		)
 		(stroke
@@ -7894,6 +7944,16 @@
 			(type default)
 		)
 		(uuid "9e0b0197-94f3-499d-aee2-54df76618b29")
+	)
+	(wire
+		(pts
+			(xy 104.14 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee0239d-6736-4ad9-9962-106bbf766de0")
 	)
 	(wire
 		(pts
@@ -8087,7 +8147,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 72.39) (xy 153.67 68.58)
+			(xy 152.146 72.39) (xy 152.146 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8104,16 +8164,6 @@
 			(type default)
 		)
 		(uuid "ae22fc83-9018-485a-85cb-81a2bbb742d6")
-	)
-	(wire
-		(pts
-			(xy 153.67 80.01) (xy 153.67 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae85eb87-083d-42d4-944b-3f95536bff64")
 	)
 	(wire
 		(pts
@@ -8274,16 +8324,6 @@
 			(type default)
 		)
 		(uuid "bd9816c1-6113-4efc-a7aa-7ed8ef8c0936")
-	)
-	(wire
-		(pts
-			(xy 104.14 66.04) (xy 107.95 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c088bfb6-6b5b-4e1c-a802-1dcc521cf4c5")
 	)
 	(wire
 		(pts
@@ -8797,6 +8837,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.146 80.01) (xy 152.146 84.582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21e0058-73d4-4900-ad04-471712438438")
+	)
+	(wire
+		(pts
 			(xy 44.45 209.55) (xy 35.56 209.55)
 		)
 		(stroke
@@ -8907,16 +8957,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 71.12) (xy 73.66 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6c78b5-a0d7-4081-9e8c-717b9aeb5f32")
-	)
-	(wire
-		(pts
 			(xy 69.85 217.17) (xy 74.93 217.17)
 		)
 		(stroke
@@ -8966,7 +9006,7 @@
 		(uuid "10bf5e22-88b7-4381-9c26-bb78147c228e")
 	)
 	(label "LED_Latch"
-		(at 107.95 63.5 0)
+		(at 115.316 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8986,12 +9026,12 @@
 		(uuid "29282e44-b940-404e-9395-2ffa41b8d6a5")
 	)
 	(label "LED_MOSI"
-		(at 107.95 71.12 0)
+		(at 67.564 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "427bb204-9523-4522-917a-3b75fdbf6e56")
 	)
@@ -9056,7 +9096,7 @@
 		(uuid "5da00751-f16d-4057-ba35-a5b330a250b6")
 	)
 	(label "BYP_LED"
-		(at 71.12 76.2 180)
+		(at 122.936 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9166,7 +9206,7 @@
 		(uuid "dc925c32-68af-46f0-94a8-6a11281304b6")
 	)
 	(label "LED_NRST"
-		(at 62.23 71.12 180)
+		(at 67.818 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9176,12 +9216,12 @@
 		(uuid "deb12f9a-6855-4358-bd07-a48ef5c86569")
 	)
 	(label "LED_SCK"
-		(at 107.95 66.04 0)
+		(at 68.58 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e90451b5-dc58-41e9-996e-979dd311c5c6")
 	)
@@ -9707,7 +9747,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 40.64 232.41 90)
+		(at 40.64 232.41 270)
+		(mirror x)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9715,7 +9756,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b0f4561-264d-46fe-8042-34ec7101dc1a")
 		(property "Reference" "RN6"
 			(at 40.64 226.06 90)
@@ -9885,7 +9925,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 48.26 240.03 90)
+		(at 48.26 240.03 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9893,7 +9934,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c249a53-6fcb-4804-a38f-6a452dad8d7f")
 		(property "Reference" "RN2"
 			(at 48.26 233.68 90)
@@ -9983,7 +10023,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 48.26 134.62 90)
+		(at 48.26 134.62 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9991,7 +10032,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "17fb4355-65d1-45f4-a452-05c2d4520c8e")
 		(property "Reference" "RN5"
 			(at 48.26 128.27 90)
@@ -10047,22 +10087,22 @@
 			)
 		)
 		(pin "7"
-			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392090")
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392091")
 		)
 		(pin "8"
-			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa7")
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa8")
 		)
 		(pin "1"
-			(uuid "0a0b88ae-3159-4259-b89b-937625f0710d")
+			(uuid "0a0b88ae-3159-4259-b89b-937625f0710e")
 		)
 		(pin "2"
-			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d3e")
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d3f")
 		)
 		(pin "3"
-			(uuid "85147861-599e-444c-b5ba-42f4078a08cd")
+			(uuid "85147861-599e-444c-b5ba-42f4078a08ce")
 		)
 		(pin "6"
-			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f38")
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f39")
 		)
 		(pin "4"
 			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9ced")
@@ -10291,7 +10331,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 39.37 172.72 90)
+		(at 39.37 172.72 270)
+		(mirror x)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10299,7 +10340,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "191d8a1d-3ba4-4936-8a42-534c17559e49")
 		(property "Reference" "RN1"
 			(at 39.37 166.37 90)
@@ -10755,7 +10795,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 40.64 262.89 90)
+		(at 40.64 262.89 270)
+		(mirror x)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10763,7 +10804,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e63de09-01e4-4add-a288-df4ea4e742a3")
 		(property "Reference" "RN2"
 			(at 40.64 256.54 90)
@@ -11099,7 +11139,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NCS20074D")
-		(at 198.12 52.07 0)
+		(at 279.4 97.79 0)
 		(mirror x)
 		(unit 3)
 		(body_style 1)
@@ -11110,7 +11150,7 @@
 		(dnp no)
 		(uuid "2579a925-b647-4881-9bbf-dfeb43398652")
 		(property "Reference" "U6"
-			(at 198.12 62.23 0)
+			(at 279.4 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11120,7 +11160,7 @@
 			)
 		)
 		(property "Value" "NCS20074D"
-			(at 198.12 59.69 0)
+			(at 279.4 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11130,7 +11170,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 200.66 52.07 0)
+			(at 281.94 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11141,7 +11181,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
-			(at 204.47 55.88 0)
+			(at 285.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11152,7 +11192,7 @@
 			)
 		)
 		(property "Description" "Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14"
-			(at 198.12 52.07 0)
+			(at 279.4 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11163,7 +11203,7 @@
 			)
 		)
 		(property "Sim.Library" "NCS2007X.MOD"
-			(at 198.12 52.07 0)
+			(at 279.4 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11174,7 +11214,7 @@
 			)
 		)
 		(property "Sim.Name" "NCS2007_Quad"
-			(at 198.12 52.07 0)
+			(at 279.4 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11185,7 +11225,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 198.12 52.07 0)
+			(at 279.4 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11196,7 +11236,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 198.12 52.07 0)
+			(at 279.4 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11259,7 +11299,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 48.26 165.1 90)
+		(at 48.26 165.1 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11267,7 +11308,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28d34e33-7678-4a7a-a29d-c766a5545ed3")
 		(property "Reference" "RN1"
 			(at 48.26 158.75 90)
@@ -11323,28 +11363,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d250")
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d251")
 		)
 		(pin "1"
-			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c6711279")
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c671127a")
 		)
 		(pin "2"
-			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c6")
+			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c7")
 		)
 		(pin "7"
-			(uuid "14a76fd4-7832-4264-9a08-87b4be17158e")
+			(uuid "14a76fd4-7832-4264-9a08-87b4be17158f")
 		)
 		(pin "3"
-			(uuid "8a630727-4a2d-470b-8875-1de139b8d02b")
+			(uuid "8a630727-4a2d-470b-8875-1de139b8d02c")
 		)
 		(pin "6"
-			(uuid "3f18d5f1-419b-436b-a024-1d7559d71170")
+			(uuid "3f18d5f1-419b-436b-a024-1d7559d71171")
 		)
 		(pin "4"
-			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9b")
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9c")
 		)
 		(pin "5"
-			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea8")
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea9")
 		)
 		(instances
 			(project "CompressorPCB"
@@ -12797,7 +12837,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 39.37 217.17 90)
+		(at 39.37 217.17 270)
+		(mirror x)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12805,7 +12846,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4be9e254-62ec-4958-96f9-cf12cc2e980c")
 		(property "Reference" "RN6"
 			(at 39.37 210.82 90)
@@ -12864,19 +12904,19 @@
 			(uuid "47b1f324-2c4f-476e-834f-9d5f43451e14")
 		)
 		(pin "8"
-			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa8")
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa9")
 		)
 		(pin "1"
-			(uuid "0a0b88ae-3159-4259-b89b-937625f0710e")
+			(uuid "0a0b88ae-3159-4259-b89b-937625f0710f")
 		)
 		(pin "2"
 			(uuid "218a9720-a0a1-49d1-8e73-d5eabcfbdc67")
 		)
 		(pin "3"
-			(uuid "85147861-599e-444c-b5ba-42f4078a08ce")
+			(uuid "85147861-599e-444c-b5ba-42f4078a08cf")
 		)
 		(pin "6"
-			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f39")
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f3a")
 		)
 		(pin "4"
 			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9cee")
@@ -13825,7 +13865,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 48.26 209.55 90)
+		(at 48.26 209.55 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13833,7 +13874,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c67e922-7853-4097-83f9-89c4592f1c37")
 		(property "Reference" "RN6"
 			(at 48.26 203.2 90)
@@ -14555,7 +14595,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 48.26 255.27 90)
+		(at 48.26 255.27 270)
+		(mirror x)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14563,7 +14604,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "817185f6-66fe-499d-a53d-cd3edd736ccb")
 		(property "Reference" "RN2"
 			(at 48.26 248.92 90)
@@ -14619,16 +14659,16 @@
 			)
 		)
 		(pin "8"
-			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d251")
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d253")
 		)
 		(pin "1"
-			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c671127a")
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c671127c")
 		)
 		(pin "2"
-			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c7")
+			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6ca")
 		)
 		(pin "7"
-			(uuid "14a76fd4-7832-4264-9a08-87b4be17158f")
+			(uuid "14a76fd4-7832-4264-9a08-87b4be171592")
 		)
 		(pin "3"
 			(uuid "671543ce-b51d-442c-a98c-74f2e2322a83")
@@ -14637,10 +14677,10 @@
 			(uuid "ebc8dfd6-77d7-48ab-8306-91c3f8a427e3")
 		)
 		(pin "4"
-			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9c")
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9d")
 		)
 		(pin "5"
-			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea9")
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552eaa")
 		)
 		(instances
 			(project "CompressorPCB"
@@ -14812,7 +14852,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 48.26 149.86 90)
+		(at 48.26 149.86 270)
+		(mirror x)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14820,7 +14861,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "88c24047-d61b-4aba-94c3-72fd33577390")
 		(property "Reference" "RN5"
 			(at 48.26 143.51 90)
@@ -14876,28 +14916,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392090")
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392092")
 		)
 		(pin "8"
-			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa7")
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfaa")
 		)
 		(pin "1"
-			(uuid "0a0b88ae-3159-4259-b89b-937625f0710d")
+			(uuid "0a0b88ae-3159-4259-b89b-937625f07110")
 		)
 		(pin "2"
-			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d3e")
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d40")
 		)
 		(pin "3"
-			(uuid "85147861-599e-444c-b5ba-42f4078a08cd")
+			(uuid "85147861-599e-444c-b5ba-42f4078a08d1")
 		)
 		(pin "6"
-			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f38")
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f3c")
 		)
 		(pin "4"
-			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9ced")
+			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9cef")
 		)
 		(pin "5"
-			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c3")
+			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c5")
 		)
 		(instances
 			(project "CompressorPCB"
@@ -15274,7 +15314,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 48.26 224.79 90)
+		(at 48.26 224.79 270)
+		(mirror x)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15282,7 +15323,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "996ef07b-a9a7-4581-b793-eab916beea38")
 		(property "Reference" "RN6"
 			(at 48.26 218.44 90)
@@ -15338,16 +15378,16 @@
 			)
 		)
 		(pin "7"
-			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392092")
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392094")
 		)
 		(pin "8"
-			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa9")
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfab")
 		)
 		(pin "1"
-			(uuid "0a0b88ae-3159-4259-b89b-937625f0710f")
+			(uuid "0a0b88ae-3159-4259-b89b-937625f07111")
 		)
 		(pin "2"
-			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d40")
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d42")
 		)
 		(pin "3"
 			(uuid "b94f6ed0-37d8-4f62-b51c-68357278da91")
@@ -15356,10 +15396,10 @@
 			(uuid "1781a95e-a109-406a-ab96-56a4a9ff3156")
 		)
 		(pin "4"
-			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9cef")
+			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9cf1")
 		)
 		(pin "5"
-			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c5")
+			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c7")
 		)
 		(instances
 			(project "CompressorPCB"
@@ -15450,7 +15490,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 76.2 0)
+		(at 152.146 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15461,7 +15501,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0d23493-43fa-4fe9-98e9-fb57b73e3a9a")
 		(property "Reference" "C18"
-			(at 157.48 74.9299 0)
+			(at 155.956 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15472,7 +15512,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 157.48 77.4699 0)
+			(at 155.956 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15483,7 +15523,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 154.6352 80.01 0)
+			(at 153.1112 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15494,7 +15534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 76.2 0)
+			(at 152.146 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15505,7 +15545,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 153.67 76.2 0)
+			(at 152.146 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16082,7 +16122,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 39.37 142.24 90)
+		(at 39.37 142.24 270)
+		(mirror x)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16090,7 +16131,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b032bdd8-9455-48da-aece-d9ab1b2a06a0")
 		(property "Reference" "RN5"
 			(at 39.37 135.89 90)
@@ -16146,28 +16186,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392090")
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392095")
 		)
 		(pin "8"
-			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa7")
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfac")
 		)
 		(pin "1"
-			(uuid "0a0b88ae-3159-4259-b89b-937625f0710d")
+			(uuid "0a0b88ae-3159-4259-b89b-937625f07112")
 		)
 		(pin "2"
-			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d3e")
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d43")
 		)
 		(pin "3"
-			(uuid "85147861-599e-444c-b5ba-42f4078a08cd")
+			(uuid "85147861-599e-444c-b5ba-42f4078a08d2")
 		)
 		(pin "6"
-			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f38")
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f3d")
 		)
 		(pin "4"
-			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9ced")
+			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9cf2")
 		)
 		(pin "5"
-			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c3")
+			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c8")
 		)
 		(instances
 			(project "CompressorPCB"
@@ -16180,7 +16220,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 40.64 157.48 90)
+		(at 40.64 157.48 270)
+		(mirror x)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16188,7 +16229,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b11580c3-427f-4d5c-8e96-f69f10d96684")
 		(property "Reference" "RN5"
 			(at 40.64 151.13 90)
@@ -16244,28 +16284,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392090")
+			(uuid "3f6e3a0c-dc1b-4170-824d-cdc214392096")
 		)
 		(pin "8"
-			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfa7")
+			(uuid "1f4af030-66e2-47ce-ad51-6eec30d7bfad")
 		)
 		(pin "1"
-			(uuid "0a0b88ae-3159-4259-b89b-937625f0710d")
+			(uuid "0a0b88ae-3159-4259-b89b-937625f07113")
 		)
 		(pin "2"
-			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d3e")
+			(uuid "8f9cc9c3-444f-43a3-9a1b-d2f85ea23d44")
 		)
 		(pin "3"
-			(uuid "85147861-599e-444c-b5ba-42f4078a08cd")
+			(uuid "85147861-599e-444c-b5ba-42f4078a08d3")
 		)
 		(pin "6"
-			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f38")
+			(uuid "8ec28eba-9cb1-4808-ac74-596dd6b31f3e")
 		)
 		(pin "4"
-			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9ced")
+			(uuid "f8ad6802-2d32-4e22-9dae-40fb7e5f9cf3")
 		)
 		(pin "5"
-			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c3")
+			(uuid "ffe7941e-f591-40eb-81d7-6762bc8bc5c9")
 		)
 		(instances
 			(project "CompressorPCB"
@@ -16525,7 +16565,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 85.09 0)
+		(at 152.146 84.582 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16536,7 +16576,7 @@
 		(fields_autoplaced yes)
 		(uuid "b63e50af-c494-46bf-a67c-2abf41cf37cb")
 		(property "Reference" "#PWR054"
-			(at 153.67 91.44 0)
+			(at 152.146 90.932 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16547,7 +16587,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 88.9 0)
+			(at 152.146 88.392 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16558,7 +16598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 85.09 0)
+			(at 152.146 84.582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16569,7 +16609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 85.09 0)
+			(at 152.146 84.582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16580,7 +16620,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 85.09 0)
+			(at 152.146 84.582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16604,7 +16644,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NCS20074D")
-		(at 279.4 97.79 0)
+		(at 198.12 52.07 0)
 		(mirror x)
 		(unit 4)
 		(body_style 1)
@@ -16615,7 +16655,7 @@
 		(dnp no)
 		(uuid "b8f00f71-b17d-4bee-add6-f23d600b83ea")
 		(property "Reference" "U6"
-			(at 279.4 107.95 0)
+			(at 198.12 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16625,7 +16665,7 @@
 			)
 		)
 		(property "Value" "NCS20074D"
-			(at 279.4 105.41 0)
+			(at 198.12 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16635,7 +16675,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 281.94 97.79 0)
+			(at 200.66 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16646,7 +16686,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
-			(at 285.75 101.6 0)
+			(at 204.47 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16657,7 +16697,7 @@
 			)
 		)
 		(property "Description" "Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14"
-			(at 279.4 97.79 0)
+			(at 198.12 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16668,7 +16708,7 @@
 			)
 		)
 		(property "Sim.Library" "NCS2007X.MOD"
-			(at 279.4 97.79 0)
+			(at 198.12 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16679,7 +16719,7 @@
 			)
 		)
 		(property "Sim.Name" "NCS2007_Quad"
-			(at 279.4 97.79 0)
+			(at 198.12 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16690,7 +16730,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 279.4 97.79 0)
+			(at 198.12 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16701,7 +16741,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 279.4 97.79 0)
+			(at 198.12 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17428,7 +17468,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 40.64 187.96 90)
+		(at 40.64 187.96 270)
+		(mirror x)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17436,7 +17477,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c78eddf6-9dbd-4e20-a495-de5fd4b004ec")
 		(property "Reference" "RN1"
 			(at 40.64 181.61 90)
@@ -17492,28 +17532,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d250")
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d254")
 		)
 		(pin "1"
-			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c6711279")
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c671127d")
 		)
 		(pin "2"
-			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c6")
+			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6cb")
 		)
 		(pin "7"
-			(uuid "14a76fd4-7832-4264-9a08-87b4be17158e")
+			(uuid "14a76fd4-7832-4264-9a08-87b4be171593")
 		)
 		(pin "3"
-			(uuid "8a630727-4a2d-470b-8875-1de139b8d02b")
+			(uuid "8a630727-4a2d-470b-8875-1de139b8d02f")
 		)
 		(pin "6"
-			(uuid "3f18d5f1-419b-436b-a024-1d7559d71170")
+			(uuid "3f18d5f1-419b-436b-a024-1d7559d71174")
 		)
 		(pin "4"
-			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9b")
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9f")
 		)
 		(pin "5"
-			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea8")
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552eac")
 		)
 		(instances
 			(project "CompressorPCB"
@@ -17981,7 +18021,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 39.37 247.65 90)
+		(at 39.37 247.65 270)
+		(mirror x)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17989,7 +18030,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cdfff978-44e8-4c91-b01f-1968d46b1a38")
 		(property "Reference" "RN2"
 			(at 39.37 241.3 90)
@@ -18045,10 +18085,10 @@
 			)
 		)
 		(pin "8"
-			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d250")
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d255")
 		)
 		(pin "1"
-			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c6711279")
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c671127e")
 		)
 		(pin "2"
 			(uuid "1e47a90e-f5c0-491a-85cf-fedca40e2c98")
@@ -18057,16 +18097,16 @@
 			(uuid "e3ab7830-dc09-4ff1-9d44-0f14f062c633")
 		)
 		(pin "3"
-			(uuid "8a630727-4a2d-470b-8875-1de139b8d02b")
+			(uuid "8a630727-4a2d-470b-8875-1de139b8d030")
 		)
 		(pin "6"
-			(uuid "3f18d5f1-419b-436b-a024-1d7559d71170")
+			(uuid "3f18d5f1-419b-436b-a024-1d7559d71175")
 		)
 		(pin "4"
-			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9b")
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecca0")
 		)
 		(pin "5"
-			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea8")
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ead")
 		)
 		(instances
 			(project "CompressorPCB"
@@ -19122,7 +19162,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
-		(at 48.26 180.34 90)
+		(at 48.26 180.34 270)
+		(mirror x)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19130,7 +19171,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fef05567-b18b-43b0-9c96-7ffe3ae4037a")
 		(property "Reference" "RN1"
 			(at 48.26 173.99 90)
@@ -19186,28 +19226,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d250")
+			(uuid "4fe9bd6e-1dd1-41e9-ac4f-a9ca3044d256")
 		)
 		(pin "1"
-			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c6711279")
+			(uuid "265e765e-d8c6-4c8c-a94c-e6d0c671127f")
 		)
 		(pin "2"
-			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6c6")
+			(uuid "a7ee8713-f611-49e3-8832-3fa220c3d6cc")
 		)
 		(pin "7"
-			(uuid "14a76fd4-7832-4264-9a08-87b4be17158e")
+			(uuid "14a76fd4-7832-4264-9a08-87b4be171594")
 		)
 		(pin "3"
-			(uuid "8a630727-4a2d-470b-8875-1de139b8d02b")
+			(uuid "8a630727-4a2d-470b-8875-1de139b8d031")
 		)
 		(pin "6"
-			(uuid "3f18d5f1-419b-436b-a024-1d7559d71170")
+			(uuid "3f18d5f1-419b-436b-a024-1d7559d71176")
 		)
 		(pin "4"
-			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecc9b")
+			(uuid "d75c526e-2872-4bdd-b484-5cd1f1cecca1")
 		)
 		(pin "5"
-			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552ea8")
+			(uuid "6775f1bc-d42e-4246-ac3b-1991dc552eae")
 		)
 		(instances
 			(project "CompressorPCB"

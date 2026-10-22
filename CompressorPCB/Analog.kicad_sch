@@ -3069,6 +3069,12 @@
 		(uuid "5f77c5a1-a737-4e65-9f8a-f01463d71624")
 	)
 	(junction
+		(at 134.62 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69578a55-3251-4b39-a81b-5a98f5c9ee4d")
+	)
+	(junction
 		(at 157.48 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3105,12 +3111,6 @@
 		(uuid "7fd5c20f-e74f-407f-8ee3-e036b6def512")
 	)
 	(junction
-		(at 134.62 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8daf27e5-b5e3-414a-9e3f-b34a84408c50")
-	)
-	(junction
 		(at 171.45 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3133,12 +3133,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b572f09-c735-4855-8c04-61cef71dd913")
-	)
-	(junction
-		(at 157.48 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b159e540-6414-41eb-9446-68c7a16a8ee8")
 	)
 	(junction
 		(at 105.41 59.69)
@@ -3201,10 +3195,10 @@
 		(uuid "e366a141-19c7-4936-8386-ece3f35c7515")
 	)
 	(junction
-		(at 134.62 48.26)
+		(at 157.48 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f0c14822-1bf5-4705-a866-5931398c93dc")
+		(uuid "f34a0eab-1c1c-4e04-9c6e-ffcd1f75c92e")
 	)
 	(junction
 		(at 72.39 45.72)
@@ -3255,6 +3249,16 @@
 	(no_connect
 		(at 146.05 259.08)
 		(uuid "fe9dba36-2ae7-432a-96c6-688999ff35d1")
+	)
+	(wire
+		(pts
+			(xy 157.48 48.26) (xy 157.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00fbc061-488f-4119-8d90-b9b7f133a4a5")
 	)
 	(wire
 		(pts
@@ -3728,6 +3732,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 48.26) (xy 134.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387f11bb-0038-4998-b150-1f9244177412")
+	)
+	(wire
+		(pts
 			(xy 236.22 58.42) (xy 236.22 53.34)
 		)
 		(stroke
@@ -3848,16 +3862,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 52.07) (xy 157.48 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d2d989e-8302-47e9-90a4-385ce67c661a")
-	)
-	(wire
-		(pts
 			(xy 213.36 151.13) (xy 213.36 143.51)
 		)
 		(stroke
@@ -3948,16 +3952,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 48.26) (xy 134.62 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54d36948-d6d0-4e30-934c-940e11c8f7f4")
-	)
-	(wire
-		(pts
 			(xy 106.68 140.97) (xy 135.89 140.97)
 		)
 		(stroke
@@ -3965,16 +3959,6 @@
 			(type default)
 		)
 		(uuid "55b5d734-cf77-4de8-81ef-9e8855871bc0")
-	)
-	(wire
-		(pts
-			(xy 138.43 49.53) (xy 139.7 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "576b8a4d-2ea8-4d04-9961-6d0a42e10c2a")
 	)
 	(wire
 		(pts
@@ -4158,16 +4142,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 36.83) (xy 134.62 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85292e78-f12d-4444-90e0-215d44b4004c")
-	)
-	(wire
-		(pts
 			(xy 171.45 53.34) (xy 170.18 53.34)
 		)
 		(stroke
@@ -4175,6 +4149,16 @@
 			(type default)
 		)
 		(uuid "8563d252-4cbe-43fb-a3d7-c3d22715e0cf")
+	)
+	(wire
+		(pts
+			(xy 134.62 48.26) (xy 139.192 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85783cfd-d383-40ab-a9f3-296d6962cbd0")
 	)
 	(wire
 		(pts
@@ -4368,6 +4352,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 48.26) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da96656-45ae-4dc9-b86d-cb37b8f8c037")
+	)
+	(wire
+		(pts
 			(xy 245.11 34.29) (xy 245.11 44.45)
 		)
 		(stroke
@@ -4418,6 +4412,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.176 54.864) (xy 138.176 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3368792-dc25-4a79-9cd9-3b9becc318d9")
+	)
+	(wire
+		(pts
 			(xy 72.39 236.22) (xy 72.39 237.49)
 		)
 		(stroke
@@ -4448,16 +4452,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 46.99) (xy 138.43 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7967570-1b6a-4d8e-810e-54aa4ec8f437")
-	)
-	(wire
-		(pts
 			(xy 132.08 219.71) (xy 132.08 218.44)
 		)
 		(stroke
@@ -4475,16 +4469,6 @@
 			(type default)
 		)
 		(uuid "a8d79900-1e35-421e-91cc-70c3a964f3d5")
-	)
-	(wire
-		(pts
-			(xy 154.94 52.07) (xy 157.48 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d7fc2e-9372-4bbe-a8b5-64f413cc44f2")
 	)
 	(wire
 		(pts
@@ -4678,6 +4662,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 50.8) (xy 157.48 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6219399-46f2-4ebb-b6f9-be5ab7a5e97d")
+	)
+	(wire
+		(pts
 			(xy 149.86 63.5) (xy 157.48 63.5)
 		)
 		(stroke
@@ -4685,16 +4679,6 @@
 			(type default)
 		)
 		(uuid "c9279c92-8d90-43b8-a3d8-7bd1f7776876")
-	)
-	(wire
-		(pts
-			(xy 130.81 48.26) (xy 134.62 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc25d234-f15b-447e-8322-12d1fc4a0eab")
 	)
 	(wire
 		(pts
@@ -4738,16 +4722,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 54.61) (xy 139.7 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d02d5479-3a69-4106-9aac-eb2406f95d9e")
-	)
-	(wire
-		(pts
 			(xy 240.03 53.34) (xy 236.22 53.34)
 		)
 		(stroke
@@ -4755,16 +4729,6 @@
 			(type default)
 		)
 		(uuid "d1b5a864-d27c-4cc8-8749-1fa131642f4a")
-	)
-	(wire
-		(pts
-			(xy 157.48 48.26) (xy 157.48 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2eb6cbf-b81d-40fa-89e8-19eebc8079bf")
 	)
 	(wire
 		(pts
@@ -4795,16 +4759,6 @@
 			(type default)
 		)
 		(uuid "d38e90f8-0d44-4eaf-b790-41f750cc2cbb")
-	)
-	(wire
-		(pts
-			(xy 134.62 54.61) (xy 134.62 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d61aa069-fd92-4f21-9e59-7184e969199b")
 	)
 	(wire
 		(pts
@@ -4848,6 +4802,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.176 53.34) (xy 139.192 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc75081f-f0b1-4ee4-b83a-a333bbe32d2d")
+	)
+	(wire
+		(pts
 			(xy 118.11 218.44) (xy 132.08 218.44)
 		)
 		(stroke
@@ -4868,6 +4832,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 36.83) (xy 134.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deaedebb-6cc2-452e-b888-c1c72c8c80a2")
+	)
+	(wire
+		(pts
 			(xy 223.52 46.99) (xy 223.52 50.8)
 		)
 		(stroke
@@ -4885,6 +4859,16 @@
 			(type default)
 		)
 		(uuid "e171f401-64a4-462a-be0b-d8bb5fa5c4f0")
+	)
+	(wire
+		(pts
+			(xy 154.432 50.8) (xy 157.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e231dbe3-1722-4f33-b2e6-1c47ecf6a74a")
 	)
 	(wire
 		(pts
@@ -6241,7 +6225,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 96.52 48.26 0)
+		(at 146.812 50.8 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6252,7 +6237,7 @@
 		(fields_autoplaced yes)
 		(uuid "16705a22-23eb-4d2a-be2e-86ec84253dac")
 		(property "Reference" "U1"
-			(at 96.52 38.1 0)
+			(at 146.812 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6262,7 +6247,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 96.52 40.64 0)
+			(at 146.812 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6272,7 +6257,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 95.25 45.72 0)
+			(at 145.542 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6283,7 +6268,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 97.79 43.18 0)
+			(at 148.082 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6294,7 +6279,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 96.52 48.26 0)
+			(at 146.812 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6305,7 +6290,7 @@
 			)
 		)
 		(property "Sim.Library" "/Users/hayden/dev/STM32_Projects/CompressorPedal/CompressorSim/tl074-quad.lib"
-			(at 96.52 48.26 0)
+			(at 146.812 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6316,7 +6301,7 @@
 			)
 		)
 		(property "Sim.Name" "TL074c"
-			(at 96.52 48.26 0)
+			(at 146.812 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6327,7 +6312,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 96.52 48.26 0)
+			(at 146.812 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6338,7 +6323,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 96.52 48.26 0)
+			(at 146.812 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6400,84 +6385,6 @@
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+9VA")
-		(at 138.43 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17d6a954-f64a-4f52-bb02-43ca50fb0e51")
-		(property "Reference" "#PWR077"
-			(at 138.43 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+9VA"
-			(at 138.43 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9VA\""
-			(at 138.43 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "36c131ac-5f43-447d-a1c4-8478182aa5df")
-		)
-		(instances
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
-					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -7617,8 +7524,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 179.07 50.8 0)
-		(mirror x)
+		(at 255.27 31.75 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7628,7 +7534,7 @@
 		(dnp no)
 		(uuid "364ab6fd-8de4-4bb3-a84c-07956b7d79b8")
 		(property "Reference" "U1"
-			(at 179.07 61.468 0)
+			(at 255.27 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7638,7 +7544,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 179.07 58.928 0)
+			(at 255.27 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7648,7 +7554,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 177.8 53.34 0)
+			(at 254 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7659,7 +7565,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 180.34 55.88 0)
+			(at 256.54 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7670,7 +7576,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 179.07 50.8 0)
+			(at 255.27 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7681,7 +7587,7 @@
 			)
 		)
 		(property "Sim.Library" "/Users/hayden/dev/STM32_Projects/CompressorPedal/CompressorSim/tl074-quad.lib"
-			(at 179.07 50.8 0)
+			(at 255.27 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7692,7 +7598,7 @@
 			)
 		)
 		(property "Sim.Name" "TL074c"
-			(at 179.07 50.8 0)
+			(at 255.27 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7703,7 +7609,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 179.07 50.8 0)
+			(at 255.27 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7714,7 +7620,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 179.07 50.8 0)
+			(at 255.27 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10731,7 +10637,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 147.32 52.07 0)
+		(at 179.07 50.8 0)
+		(mirror x)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10739,10 +10646,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "841cebb9-f6ba-4475-b331-fd69773974d2")
 		(property "Reference" "U1"
-			(at 147.32 42.164 0)
+			(at 179.07 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10752,7 +10658,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 147.32 44.704 0)
+			(at 179.07 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10762,7 +10668,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 146.05 49.53 0)
+			(at 177.8 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10773,7 +10679,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 148.59 46.99 0)
+			(at 180.34 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10784,7 +10690,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 147.32 52.07 0)
+			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10795,7 +10701,7 @@
 			)
 		)
 		(property "Sim.Library" "/Users/hayden/dev/STM32_Projects/CompressorPedal/CompressorSim/tl074-quad.lib"
-			(at 147.32 52.07 0)
+			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10806,7 +10712,7 @@
 			)
 		)
 		(property "Sim.Name" "TL074c"
-			(at 147.32 52.07 0)
+			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10817,7 +10723,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 147.32 52.07 0)
+			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10828,7 +10734,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 147.32 52.07 0)
+			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10981,7 +10887,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 236.22 153.67 0)
+		(at 93.98 140.97 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10991,7 +10897,7 @@
 		(dnp no)
 		(uuid "95c67203-6187-4e3d-b06a-4d5f7ba165f9")
 		(property "Reference" "U2"
-			(at 236.22 143.002 0)
+			(at 93.98 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11001,7 +10907,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 236.22 145.542 0)
+			(at 93.98 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11011,7 +10917,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 234.95 151.13 0)
+			(at 92.71 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11022,7 +10928,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 237.49 148.59 0)
+			(at 95.25 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11033,7 +10939,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 236.22 153.67 0)
+			(at 93.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11044,7 +10950,7 @@
 			)
 		)
 		(property "Sim.Library" "tl074-quad.lib"
-			(at 236.22 153.67 0)
+			(at 93.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11055,7 +10961,7 @@
 			)
 		)
 		(property "Sim.Name" "TL074c"
-			(at 236.22 153.67 0)
+			(at 93.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11066,7 +10972,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 236.22 153.67 0)
+			(at 93.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11077,7 +10983,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 236.22 153.67 0)
+			(at 93.98 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12007,7 +11913,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 233.68 228.6 0)
+		(at 236.22 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12018,7 +11924,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae42a212-6494-43f4-b4d9-c30e6860d84b")
 		(property "Reference" "U2"
-			(at 233.68 218.694 0)
+			(at 236.22 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12028,7 +11934,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 233.68 221.234 0)
+			(at 236.22 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12038,7 +11944,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 232.41 226.06 0)
+			(at 234.95 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12049,7 +11955,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 234.95 223.52 0)
+			(at 237.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12060,7 +11966,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 233.68 228.6 0)
+			(at 236.22 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12071,7 +11977,7 @@
 			)
 		)
 		(property "Sim.Library" "tl074-quad.lib"
-			(at 233.68 228.6 0)
+			(at 236.22 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12082,7 +11988,7 @@
 			)
 		)
 		(property "Sim.Name" "TL074c"
-			(at 233.68 228.6 0)
+			(at 236.22 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12093,7 +11999,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 233.68 228.6 0)
+			(at 236.22 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12104,7 +12010,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 233.68 228.6 0)
+			(at 236.22 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12277,7 +12183,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 255.27 31.75 0)
+		(at 96.52 48.26 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12288,7 +12194,7 @@
 		(fields_autoplaced yes)
 		(uuid "af1a011a-49c3-4abb-959d-1d49f7ebe19a")
 		(property "Reference" "U1"
-			(at 255.27 22.098 0)
+			(at 96.52 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12298,7 +12204,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 255.27 24.638 0)
+			(at 96.52 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12308,7 +12214,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 254 29.21 0)
+			(at 95.25 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12319,7 +12225,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 256.54 26.67 0)
+			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12330,7 +12236,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 255.27 31.75 0)
+			(at 96.52 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12341,7 +12247,7 @@
 			)
 		)
 		(property "Sim.Library" "/Users/hayden/dev/STM32_Projects/CompressorPedal/CompressorSim/tl074-quad.lib"
-			(at 255.27 31.75 0)
+			(at 96.52 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12352,7 +12258,7 @@
 			)
 		)
 		(property "Sim.Name" "TL074c"
-			(at 255.27 31.75 0)
+			(at 96.52 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12363,7 +12269,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 255.27 31.75 0)
+			(at 96.52 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12374,7 +12280,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 255.27 31.75 0)
+			(at 96.52 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12834,6 +12740,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9VA")
+		(at 138.176 54.864 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b888fecc-6944-4872-862c-f0a9bb30503a")
+		(property "Reference" "#PWR077"
+			(at 138.176 51.689 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9VA"
+			(at 138.176 59.944 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.176 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.176 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9VA\""
+			(at 138.176 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef01cfcb-7910-47ad-8547-2c9b718a64b2")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM13700")
 		(at 147.32 215.9 0)
 		(unit 1)
@@ -13179,7 +13163,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 93.98 140.97 0)
+		(at 233.68 228.6 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13190,7 +13174,7 @@
 		(fields_autoplaced yes)
 		(uuid "c79b50b4-9cf2-4fd7-a842-b74b6e01b604")
 		(property "Reference" "U2"
-			(at 93.98 130.556 0)
+			(at 233.68 218.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13200,7 +13184,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 93.98 133.096 0)
+			(at 233.68 220.726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13210,7 +13194,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 92.71 138.43 0)
+			(at 232.41 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13221,7 +13205,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 95.25 135.89 0)
+			(at 234.95 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13232,7 +13216,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 93.98 140.97 0)
+			(at 233.68 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13243,7 +13227,7 @@
 			)
 		)
 		(property "Sim.Library" "tl074-quad.lib"
-			(at 93.98 140.97 0)
+			(at 233.68 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13254,7 +13238,7 @@
 			)
 		)
 		(property "Sim.Name" "TL074c"
-			(at 93.98 140.97 0)
+			(at 233.68 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13265,7 +13249,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 93.98 140.97 0)
+			(at 233.68 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13276,7 +13260,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 93.98 140.97 0)
+			(at 233.68 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

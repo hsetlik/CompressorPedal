@@ -70,18 +70,18 @@ float getADC2Average(uint16_t* buf);
 #define CONTROL_ADC_GPIO_Port GPIOA
 #define OUTPUT_ADC_Pin GPIO_PIN_2
 #define OUTPUT_ADC_GPIO_Port GPIOA
-#define LED_LATCH_Pin GPIO_PIN_4
-#define LED_LATCH_GPIO_Port GPIOA
-#define LED_SCK_Pin GPIO_PIN_5
-#define LED_SCK_GPIO_Port GPIOA
-#define LED_MOSI_Pin GPIO_PIN_7
-#define LED_MOSI_GPIO_Port GPIOA
-#define LED_NRST_Pin GPIO_PIN_0
-#define LED_NRST_GPIO_Port GPIOB
 #define BYP_IN_Pin GPIO_PIN_8
 #define BYP_IN_GPIO_Port GPIOA
-#define BYP_LED_Pin GPIO_PIN_3
-#define BYP_LED_GPIO_Port GPIOB
+#define BYP_LED_Pin GPIO_PIN_10
+#define BYP_LED_GPIO_Port GPIOA
+#define LED_LATCH_Pin GPIO_PIN_15
+#define LED_LATCH_GPIO_Port GPIOA
+#define LED_SCK_Pin GPIO_PIN_3
+#define LED_SCK_GPIO_Port GPIOB
+#define LED_MOSI_Pin GPIO_PIN_5
+#define LED_MOSI_GPIO_Port GPIOB
+#define LED_NRST_Pin GPIO_PIN_6
+#define LED_NRST_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
