@@ -1596,9 +1596,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:D"
+		(symbol "Diode:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1616,7 +1618,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "1N4148W"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1626,7 +1628,18 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1637,18 +1650,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_DIODEs"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Diode for simulation or PCB"
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1681,7 +1683,7 @@
 					)
 				)
 			)
-			(property "Sim.Params" "rs=50m cjo=10p"
+			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1692,7 +1694,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "simulation"
+			(property "ki_fp_filters" "D*SOD?123*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1703,18 +1705,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_0_1"
+			(symbol "1N4148W_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -1752,7 +1743,7 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "1N4148W_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3111,7 +3102,7 @@
 		(at 157.48 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a178551-a605-40b6-92a5-9ac8b80a6590")
+		(uuid "7fd5c20f-e74f-407f-8ee3-e036b6def512")
 	)
 	(junction
 		(at 134.62 54.61)
@@ -3357,7 +3348,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 63.5) (xy 167.64 63.5)
+			(xy 157.48 63.5) (xy 170.18 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3507,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 53.34) (xy 167.64 63.5)
+			(xy 170.18 53.34) (xy 170.18 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3977,6 +3968,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 49.53) (xy 139.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576b8a4d-2ea8-4d04-9961-6d0a42e10c2a")
+	)
+	(wire
+		(pts
 			(xy 162.56 215.9) (xy 162.56 218.44)
 		)
 		(stroke
@@ -4167,7 +4168,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 53.34) (xy 167.64 53.34)
+			(xy 171.45 53.34) (xy 170.18 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4444,6 +4445,16 @@
 			(type default)
 		)
 		(uuid "a5e6b1e9-5a1b-4c07-a1d3-04a3c8af0ffe")
+	)
+	(wire
+		(pts
+			(xy 138.43 46.99) (xy 138.43 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7967570-1b6a-4d8e-810e-54aa4ec8f437")
 	)
 	(wire
 		(pts
@@ -5056,7 +5067,7 @@
 		(uuid "37696051-646e-4e09-9bfc-b28f1b26f0e1")
 	)
 	(label "Dcathode"
-		(at 157.48 63.5 0)
+		(at 160.02 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5104,16 +5115,6 @@
 			(justify left bottom)
 		)
 		(uuid "b6cfcfbc-f5ec-4d9a-8291-8bf77c9d35c9")
-	)
-	(label "VG"
-		(at 139.7 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dc2bf305-a7c3-46fb-b483-6f40c2000d6b")
 	)
 	(label "vThresh"
 		(at 133.35 168.91 0)
@@ -5278,7 +5279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 179.07 263.525 0)
 			(hide yes)
 			(show_name no)
@@ -5651,7 +5652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 235.204 239.014 90)
 			(hide yes)
 			(show_name no)
@@ -5739,7 +5740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 78.486 164.084 90)
 			(hide yes)
 			(show_name no)
@@ -5825,7 +5826,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 259.334 227.584 90)
 			(hide yes)
 			(show_name no)
@@ -5911,7 +5912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 252.73 227.6348 0)
 			(hide yes)
 			(show_name no)
@@ -5960,6 +5961,110 @@
 			(project "CompressorPCB"
 				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 157.48 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1050361f-4fc4-4604-a8ff-03b701ede637")
+		(property "Reference" "D15"
+			(at 160.02 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 160.02 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 161.925 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d3542fa6-5cd4-417b-9467-d9a51a4c3b6f")
+		)
+		(pin "1"
+			(uuid "257b4fc9-f48b-4b92-bc2b-0e77241b6e8d")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6166,7 +6271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 95.25 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6301,6 +6406,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9VA")
+		(at 138.43 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17d6a954-f64a-4f52-bb02-43ca50fb0e51")
+		(property "Reference" "#PWR077"
+			(at 138.43 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9VA"
+			(at 138.43 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9VA\""
+			(at 138.43 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36c131ac-5f43-447d-a1c4-8478182aa5df")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 146.05 63.5 90)
 		(unit 1)
@@ -6332,7 +6515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 146.304 62.484 90)
 			(hide yes)
 			(show_name no)
@@ -6420,7 +6603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 61.2648 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6506,7 +6689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 165.354 35.814 90)
 			(hide yes)
 			(show_name no)
@@ -6592,7 +6775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 209.804 49.784 90)
 			(hide yes)
 			(show_name no)
@@ -6678,7 +6861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 141.224 167.894 90)
 			(hide yes)
 			(show_name no)
@@ -6766,7 +6949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RV16AF_42_Single_Long"
 			(at 204.47 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -6868,6 +7051,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 198.12 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2709132b-c67e-481d-893f-fd50e05ff1fc")
+		(property "Reference" "D16"
+			(at 198.12 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 198.12 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 198.12 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 198.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 198.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 198.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6bcf7bf2-7f20-452f-8338-95fa9ab66adc")
+		)
+		(pin "1"
+			(uuid "bb84ea37-2c07-4945-896d-3b5fcad3a177")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 127 48.26 90)
 		(unit 1)
@@ -6899,7 +7184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 127.254 47.244 90)
 			(hide yes)
 			(show_name no)
@@ -6987,7 +7272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 288.544 124.206 90)
 			(hide yes)
 			(show_name no)
@@ -7276,7 +7561,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.3148 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -7362,7 +7647,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 177.8 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7528,7 +7813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 71.12 44.7548 0)
 			(hide yes)
 			(show_name no)
@@ -7700,7 +7985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 259.334 122.936 90)
 			(hide yes)
 			(show_name no)
@@ -7755,136 +8040,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:D")
-		(at 207.01 143.51 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a8dd765-994a-420c-ae4d-84a4aa64b128")
-		(property "Reference" "D5"
-			(at 207.01 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 207.01 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_DIODEs"
-			(at 207.01 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode for simulation or PCB"
-			(at 207.01 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 207.01 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=2 2=1"
-			(at 207.01 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "1N4148.lib"
-			(at 207.01 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "1N4148"
-			(at 207.01 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f59de7e-29df-4532-92d2-f833db5bdf6c")
-		)
-		(pin "2"
-			(uuid "447f0aba-0a9b-4152-b251-1e9bb13ed221")
-		)
-		(instances
-			(project "Analog"
-				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:Potentiometer")
 		(at 217.17 50.8 90)
 		(unit 1)
@@ -7917,7 +8072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RV16AF_42_Single_Long"
 			(at 217.17 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8049,7 +8204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 147.574 35.814 90)
 			(hide yes)
 			(show_name no)
@@ -8137,7 +8292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 73.66 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -8356,6 +8511,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 207.01 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46c94f89-7ac5-4400-81da-e173e78083e8")
+		(property "Reference" "D12"
+			(at 207.01 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 207.01 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 207.01 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 207.01 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 207.01 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 207.01 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 207.01 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fea75360-27c5-41bc-b414-ed4d7939660e")
+		)
+		(pin "1"
+			(uuid "aed6ede2-7b48-4d69-9147-072b67c671c3")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 162.56 222.25 0)
 		(unit 1)
@@ -8389,7 +8646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 163.576 222.504 90)
 			(hide yes)
 			(show_name no)
@@ -8477,7 +8734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 133.096 223.774 90)
 			(hide yes)
 			(show_name no)
@@ -8649,7 +8906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RV16AF_42_Single_Long"
 			(at 240.03 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8782,7 +9039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 194.31 217.4748 0)
 			(hide yes)
 			(show_name no)
@@ -8868,7 +9125,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 181.864 35.814 90)
 			(hide yes)
 			(show_name no)
@@ -8923,6 +9180,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 191.77 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58a540bd-6b95-44dc-aab3-c53242e51eb0")
+		(property "Reference" "D13"
+			(at 191.77 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 191.77 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 191.77 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 191.77 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 191.77 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 191.77 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 191.77 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ea6cfe72-8bff-4979-b382-c7443631d6b9")
+		)
+		(pin "1"
+			(uuid "03952235-9de7-4b27-a343-0ff8b3af8137")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 114.3 218.44 90)
 		(unit 1)
@@ -8954,7 +9313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 114.554 217.424 90)
 			(hide yes)
 			(show_name no)
@@ -9040,7 +9399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 166.37 215.265 0)
 			(hide yes)
 			(show_name no)
@@ -9214,7 +9573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 224.4852 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9471,7 +9830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 52.07 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9639,7 +9998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 126.746 178.054 90)
 			(hide yes)
 			(show_name no)
@@ -9927,7 +10286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RV16AF_42_Single_Long"
 			(at 101.6 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10059,7 +10418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.024 123.444 90)
 			(hide yes)
 			(show_name no)
@@ -10231,7 +10590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 73.406 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -10402,7 +10761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10651,7 +11010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 234.95 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10786,125 +11145,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:D")
-		(at 198.12 50.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98caabba-9485-40a8-aa0f-cf8a4d17bce0")
-		(property "Reference" "D4"
-			(at 198.12 44.704 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 198.12 47.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_DIODEs"
-			(at 198.12 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode for simulation or PCB"
-			(at 198.12 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 198.12 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "rs=50m cjo=10p"
-			(at 198.12 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cc2739fc-18ac-4b6f-8d05-212ce3e04987")
-		)
-		(pin "1"
-			(uuid "55877266-920d-4ac8-86b8-c4be48e6b8e7")
-		)
-		(instances
-			(project "Analog"
-				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 260.35 170.18 180)
 		(unit 1)
@@ -10938,7 +11178,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 259.334 169.926 90)
 			(hide yes)
 			(show_name no)
@@ -11026,7 +11266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 177.546 228.854 90)
 			(hide yes)
 			(show_name no)
@@ -11199,7 +11439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 87.376 65.024 90)
 			(hide yes)
 			(show_name no)
@@ -11422,136 +11662,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:D")
-		(at 191.77 135.89 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a305e693-6a62-4395-8572-bdce4c9d1edd")
-		(property "Reference" "D3"
-			(at 191.77 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 191.77 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_DIODEs"
-			(at 191.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode for simulation or PCB"
-			(at 191.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 191.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=2 2=1"
-			(at 191.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "1N4148.lib"
-			(at 191.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "1N4148"
-			(at 191.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bacdcf54-e159-4b74-8df9-5e50e5ed9949")
-		)
-		(pin "2"
-			(uuid "cbf0203a-6c8d-41a6-97b1-a78e73107252")
-		)
-		(instances
-			(project "Analog"
-				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 139.7 140.97 90)
 		(unit 1)
@@ -11583,7 +11693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 139.954 139.954 90)
 			(hide yes)
 			(show_name no)
@@ -11669,7 +11779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 96.774 58.674 90)
 			(hide yes)
 			(show_name no)
@@ -11841,7 +11951,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.7948 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -11927,7 +12037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 232.41 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -12062,6 +12172,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 157.48 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aec9550e-94ff-4617-98a2-a8b5f4045cc9")
+		(property "Reference" "D14"
+			(at 160.02 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 160.02 45.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 161.925 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b924482f-7f8c-47fa-98dc-b188222786f2")
+		)
+		(pin "1"
+			(uuid "ab02447f-8ac4-420d-9482-fc7931e8dd87")
+		)
+		(instances
+			(project "CompressorPCB"
+				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 255.27 31.75 0)
 		(unit 4)
@@ -12093,7 +12307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 254 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12345,7 +12559,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RV16AF_42_Single_Long"
 			(at 125.73 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -12565,7 +12779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 205.486 236.474 90)
 			(hide yes)
 			(show_name no)
@@ -12620,127 +12834,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:D")
-		(at 157.48 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0cfe726-de6a-460c-867b-e55eb5ca30b2")
-		(property "Reference" "D2"
-			(at 160.274 57.1499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 160.274 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_DIODEs"
-			(at 157.48 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode for simulation or PCB"
-			(at 157.48 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 157.48 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 157.48 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "rs=50m cjo=10p"
-			(at 157.48 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "98b56fd7-69a2-4710-b3ae-019ba8ae39f8")
-		)
-		(pin "1"
-			(uuid "428f038f-4ddb-4dd2-8734-6b9a6d7ee47c")
-		)
-		(instances
-			(project "Analog"
-				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:LM13700")
 		(at 147.32 215.9 0)
 		(unit 1)
@@ -12772,7 +12865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 139.7 215.265 0)
 			(hide yes)
 			(show_name no)
@@ -12944,7 +13037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 146.05 260.985 0)
 			(hide yes)
 			(show_name no)
@@ -13116,7 +13209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 92.71 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13453,7 +13546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 223.774 247.396 90)
 			(hide yes)
 			(show_name no)
@@ -13623,7 +13716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 172.974 145.034 90)
 			(hide yes)
 			(show_name no)
@@ -13711,7 +13804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.206 223.774 90)
 			(hide yes)
 			(show_name no)
@@ -13766,127 +13859,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:D")
-		(at 157.48 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1a5396c-0274-4d98-8a77-21897b25d6e3")
-		(property "Reference" "D1"
-			(at 160.274 43.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 160.274 45.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_DIODEs"
-			(at 157.48 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode for simulation or PCB"
-			(at 157.48 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 157.48 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 157.48 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "rs=50m cjo=10p"
-			(at 157.48 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "43a51847-e32d-4778-bc6a-2c40178db34b")
-		)
-		(pin "1"
-			(uuid "389794f4-f470-4379-91aa-de986699f25d")
-		)
-		(instances
-			(project "Analog"
-				(path "/2667af16-abc6-4532-a0eb-14cd3d28a980"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "CompressorPCB"
-				(path "/d83271dd-8c43-488a-98f3-da062b8f90ac/0a6b8488-0f62-42c0-98f3-6115197266c2"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 180.34 154.94 180)
 		(unit 1)
@@ -13920,7 +13892,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 179.324 154.686 90)
 			(hide yes)
 			(show_name no)
@@ -14008,7 +13980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 93.98 243.205 0)
 			(hide yes)
 			(show_name no)
@@ -14182,7 +14154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 126.746 159.004 90)
 			(hide yes)
 			(show_name no)
@@ -14352,7 +14324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.074 156.464 90)
 			(hide yes)
 			(show_name no)
@@ -14523,7 +14495,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 230.124 49.784 90)
 			(hide yes)
 			(show_name no)
@@ -14609,7 +14581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 191.77 146.05 0)
 			(hide yes)
 			(show_name no)

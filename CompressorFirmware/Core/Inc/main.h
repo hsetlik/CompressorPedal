@@ -80,6 +80,8 @@ float getADC2Average(uint16_t* buf);
 #define LED_NRST_GPIO_Port GPIOB
 #define BYP_IN_Pin GPIO_PIN_8
 #define BYP_IN_GPIO_Port GPIOA
+#define BYP_LED_Pin GPIO_PIN_3
+#define BYP_LED_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

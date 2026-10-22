@@ -18,8 +18,6 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "norm_range.h"
-#include <stdint.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -103,7 +101,10 @@ void update_level_leds(float avg1, float avg2){
   const float outputNorm = norm_range_normalize(&outputRange, avg2);
   uint16_t numLEDsControl = (uint16_t)((1.0f - controlNorm) * 8.0f);
   uint16_t numLEDsOutput = (uint16_t)(outputNorm * 8.0f); 
-
+  const uint8_t outputMask = 0xFF >> (8 - numLEDsOutput);
+  const uint8_t controlMask = 0xFF >> (8 - numLEDsControl);
+  uint8_t ledData[2] = {outputMask, controlMask};
+  HAL_SPI_Transmit(&hspi1,  ledData, 2, HAL_MAX_DELAY); 
 }
 /* USER CODE END 0 */
 
@@ -165,7 +166,10 @@ int main(void)
   while (1)
   {
     if(bufferReady){
-
+      const float lvl1 = getADC1Average(currentBuffer);
+      const float lvl2 = getADC2Average(currentBuffer);
+      update_level_leds(lvl1, lvl2);
+      bufferReady = 0;
     }
     /* USER CODE END WHILE */
 
@@ -244,7 +248,7 @@ static void MX_ADC_Init(void)
   hadc.Init.SamplingTime = ADC_SAMPLETIME_12CYCLES_5;
   hadc.Init.ScanConvMode = ADC_SCAN_DIRECTION_FORWARD;
   hadc.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-  hadc.Init.ContinuousConvMode = ENABLE;
+  hadc.Init.ContinuousConvMode = DISABLE;
   hadc.Init.DiscontinuousConvMode = DISABLE;
   hadc.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_RISING;
   hadc.Init.ExternalTrigConv = ADC_EXTERNALTRIGCONV_T6_TRGO;
@@ -390,7 +394,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(LED_NRST_GPIO_Port, LED_NRST_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, LED_NRST_Pin|BYP_LED_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : LED_NRST_Pin */
   GPIO_InitStruct.Pin = LED_NRST_Pin;
@@ -404,6 +408,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(BYP_IN_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : BYP_LED_Pin */
+  GPIO_InitStruct.Pin = BYP_LED_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(BYP_LED_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 
