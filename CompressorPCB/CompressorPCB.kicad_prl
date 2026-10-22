@@ -41,13 +41,11 @@
       "footprint_references",
       "tracks",
       "drc_errors",
-      "drawing_sheet",
       "bitmaps",
       "pads",
       "zones",
       "drc_warnings",
       "drc_exclusions",
-      "locked_item_shadows",
       "conflict_shadows",
       "shapes",
       "board_outline_area",
@@ -77,6 +75,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -89,7 +89,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       156,
@@ -100,6 +102,8 @@
       103,
       103,
       74,
+      103,
+      103,
       103,
       103
     ],
