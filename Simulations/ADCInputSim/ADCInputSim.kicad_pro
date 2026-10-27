@@ -424,7 +424,7 @@
         "uuid": "025225ba-e331-467c-9cee-bfead7d422ed"
       }
     ],
-    "used_designators": "U1-2",
+    "used_designators": "C2,R7,R10-12,U1-2",
     "variants": []
   },
   "sheets": [

@@ -50,6 +50,7 @@ TIM_HandleTypeDef htim6;
 /* USER CODE BEGIN PV */
 // buffer for the ADC values
 // interleaved [IN1, IN2, IN1, IN2, ...], split into two halves for double buffering
+// W current timer speeds that means about 187.5 LED updates per second
 uint16_t adcBuf[ADC_BUF_SIZE * 4];
 // points at the half of adcBuf that the DMA just finished filling
 volatile uint16_t* currentBuffer = adcBuf;
