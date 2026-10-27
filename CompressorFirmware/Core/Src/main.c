@@ -18,6 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "stm32l0xx_hal_gpio.h"
+#include "stm32l0xx_hal_tim.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -46,6 +48,7 @@ DMA_HandleTypeDef hdma_adc;
 SPI_HandleTypeDef hspi1;
 
 TIM_HandleTypeDef htim6;
+TIM_HandleTypeDef htim21;
 
 /* USER CODE BEGIN PV */
 // buffer for the ADC values
@@ -58,6 +61,8 @@ volatile uint8_t bufferReady = 0;
 
 norm_range_t controlRange;
 norm_range_t outputRange;
+volatile bool isBypassed = false;
+volatile bool mainTimerRunning = false;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -67,6 +72,7 @@ static void MX_DMA_Init(void);
 static void MX_SPI1_Init(void);
 static void MX_ADC_Init(void);
 static void MX_TIM6_Init(void);
+static void MX_TIM21_Init(void);
 /* USER CODE BEGIN PFP */
 // call this to set up the norm_ranges
 void init_norm_ranges();
@@ -142,6 +148,7 @@ int main(void)
   MX_SPI1_Init();
   MX_ADC_Init();
   MX_TIM6_Init();
+  MX_TIM21_Init();
   /* USER CODE BEGIN 2 */
   // calibrate before the ADC is enabled
   if (HAL_ADCEx_Calibration_Start(&hadc, ADC_SINGLE_ENDED) != HAL_OK)
@@ -156,6 +163,13 @@ int main(void)
   // start the timer last so the first trigger isn't missed
   if (HAL_TIM_Base_Start(&htim6) != HAL_OK)
   {
+    Error_Handler();
+  }
+  mainTimerRunning = true;
+  // set the bypass LED state
+  HAL_GPIO_WritePin(BYP_LED_GPIO_Port, BYP_LED_Pin, (GPIO_PinState)!isBypassed);
+  // start the timer to check the bypass switch
+  if (HAL_TIM_Base_Start_IT(&htim21) != HAL_OK){
     Error_Handler();
   }
   // initialize the norm ranges
@@ -363,6 +377,51 @@ static void MX_TIM6_Init(void)
 }
 
 /**
+  * @brief TIM21 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM21_Init(void)
+{
+
+  /* USER CODE BEGIN TIM21_Init 0 */
+
+  /* USER CODE END TIM21_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM21_Init 1 */
+
+  /* USER CODE END TIM21_Init 1 */
+  htim21.Instance = TIM21;
+  htim21.Init.Prescaler = 7;
+  htim21.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim21.Init.Period = 59999;
+  htim21.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim21.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim21) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim21, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim21, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM21_Init 2 */
+
+  /* USER CODE END TIM21_Init 2 */
+
+}
+
+/**
   * Enable DMA controller clock
   */
 static void MX_DMA_Init(void)
@@ -438,6 +497,14 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 {
   currentBuffer = adcBuf + (ADC_BUF_SIZE * 2);
   bufferReady = 1;
+}
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+  const bool currentPinState = (bool)HAL_GPIO_ReadPin(BYP_IN_GPIO_Port, BYP_IN_Pin);
+  if(currentPinState != isBypassed){
+    isBypassed = currentPinState;
+    HAL_GPIO_WritePin(BYP_LED_GPIO_Port, BYP_LED_Pin, (GPIO_PinState)!isBypassed);
+  }
 }
 /* USER CODE END 4 */
 

@@ -70,7 +70,7 @@ float getADC2Average(uint16_t* buf);
 #define CONTROL_ADC_GPIO_Port GPIOA
 #define OUTPUT_ADC_Pin GPIO_PIN_2
 #define OUTPUT_ADC_GPIO_Port GPIOA
-#define BYP_IN_Pin GPIO_PIN_8
+#define BYP_IN_Pin GPIO_PIN_3
 #define BYP_IN_GPIO_Port GPIOA
 #define BYP_LED_Pin GPIO_PIN_10
 #define BYP_LED_GPIO_Port GPIOA
