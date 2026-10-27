@@ -11185,8 +11185,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NCS20074D")
-		(at 290.83 97.79 0)
-		(mirror x)
+		(at 180.34 92.71 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11196,7 +11195,7 @@
 		(dnp no)
 		(uuid "2579a925-b647-4881-9bbf-dfeb43398652")
 		(property "Reference" "U6"
-			(at 290.83 107.95 0)
+			(at 180.34 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11206,7 +11205,7 @@
 			)
 		)
 		(property "Value" "NCS20074D"
-			(at 290.83 105.41 0)
+			(at 180.34 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11216,7 +11215,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 293.37 97.79 0)
+			(at 182.88 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11227,7 +11226,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
-			(at 297.18 101.6 0)
+			(at 186.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11238,7 +11237,7 @@
 			)
 		)
 		(property "Description" "Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14"
-			(at 290.83 97.79 0)
+			(at 180.34 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11249,7 +11248,7 @@
 			)
 		)
 		(property "Sim.Library" "NCS2007X.MOD"
-			(at 290.83 97.79 0)
+			(at 180.34 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11260,7 +11259,7 @@
 			)
 		)
 		(property "Sim.Name" "NCS2007_Quad"
-			(at 290.83 97.79 0)
+			(at 180.34 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11271,7 +11270,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 290.83 97.79 0)
+			(at 180.34 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11282,7 +11281,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 290.83 97.79 0)
+			(at 180.34 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11891,7 +11890,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NCS20074D")
-		(at 180.34 92.71 0)
+		(at 290.83 97.79 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11899,10 +11899,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "38f57e87-76c9-4454-b922-46acc3540a01")
 		(property "Reference" "U6"
-			(at 180.34 82.55 0)
+			(at 290.83 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11912,7 +11911,7 @@
 			)
 		)
 		(property "Value" "NCS20074D"
-			(at 180.34 85.09 0)
+			(at 290.83 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11922,7 +11921,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 182.88 92.71 0)
+			(at 293.37 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11933,7 +11932,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF"
-			(at 186.69 88.9 0)
+			(at 297.18 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11944,7 +11943,7 @@
 			)
 		)
 		(property "Description" "Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14"
-			(at 180.34 92.71 0)
+			(at 290.83 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11955,7 +11954,7 @@
 			)
 		)
 		(property "Sim.Library" "NCS2007X.MOD"
-			(at 180.34 92.71 0)
+			(at 290.83 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11966,7 +11965,7 @@
 			)
 		)
 		(property "Sim.Name" "NCS2007_Quad"
-			(at 180.34 92.71 0)
+			(at 290.83 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11977,7 +11976,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 180.34 92.71 0)
+			(at 290.83 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11988,7 +11987,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 180.34 92.71 0)
+			(at 290.83 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

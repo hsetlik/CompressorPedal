@@ -7044,7 +7044,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 203.2 31.75 0)
+		(at 194.31 73.66 0)
+		(mirror y)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7052,9 +7053,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "364ab6fd-8de4-4bb3-a84c-07956b7d79b8")
 		(property "Reference" "U1"
-			(at 203.2 42.418 0)
+			(at 194.31 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7064,7 +7066,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 203.2 39.878 0)
+			(at 194.31 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7074,7 +7076,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 201.93 29.21 0)
+			(at 195.58 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7085,7 +7087,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 204.47 26.67 0)
+			(at 193.04 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +7098,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 203.2 31.75 0)
+			(at 194.31 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7107,7 +7109,7 @@
 			)
 		)
 		(property "Sim.Library" "/Users/hayden/dev/STM32_Projects/CompressorPedal/CompressorSim/tl074-quad.lib"
-			(at 203.2 31.75 0)
+			(at 194.31 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,7 +7120,7 @@
 			)
 		)
 		(property "Sim.Name" "TL074c"
-			(at 203.2 31.75 0)
+			(at 194.31 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7129,7 +7131,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 203.2 31.75 0)
+			(at 194.31 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7140,7 +7142,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 203.2 31.75 0)
+			(at 194.31 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9983,8 +9985,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 194.31 73.66 0)
-		(mirror y)
+		(at 203.2 31.75 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9992,9 +9993,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "841cebb9-f6ba-4475-b331-fd69773974d2")
 		(property "Reference" "U1"
-			(at 194.31 63.754 0)
+			(at 203.2 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10004,7 +10006,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 194.31 66.294 0)
+			(at 203.2 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10014,7 +10016,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 195.58 71.12 0)
+			(at 201.93 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10025,7 +10027,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 193.04 68.58 0)
+			(at 204.47 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10036,7 +10038,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 194.31 73.66 0)
+			(at 203.2 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10047,7 +10049,7 @@
 			)
 		)
 		(property "Sim.Library" "/Users/hayden/dev/STM32_Projects/CompressorPedal/CompressorSim/tl074-quad.lib"
-			(at 194.31 73.66 0)
+			(at 203.2 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10058,7 +10060,7 @@
 			)
 		)
 		(property "Sim.Name" "TL074c"
-			(at 194.31 73.66 0)
+			(at 203.2 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10069,7 +10071,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 194.31 73.66 0)
+			(at 203.2 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10080,7 +10082,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=11 12=12 13=13 14=14"
-			(at 194.31 73.66 0)
+			(at 203.2 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
